@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_COMMON_REWARD_NUM" value="40" />
+	
+	<struct name="RewardItem" version="1">
+		<entry name="itemID" type="int" cname="奖励道具"/>
+		<entry name="itemNum" type="int" cname="奖励数量"/>
+		<entry name="itemOdds" type="int" cname="权重"/>
+	</struct>
+	
+	
+	<struct name="CommonRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="集合ID"/>
+		<entry name="jobChose" type="int" cname="是否根据职业掉落"/>
+		<entry name="rewardNum" type="int" cname="道具数量"/>
+		<entry name="showNum" type="int" cname="显示数量"/>
+		<entry name="upperLimit" type="int" cname="上限数量"/>
+		<entry name="rewardItem" type="RewardItem" count="MAX_COMMON_REWARD_NUM" refer="rewardNum" cname="道具"/>
+	</struct>
+</metalib>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MACHAI_RQUIP_NAME_NUM" value="30" />
+	<macro name="MAX_MACHAI_RQUIP_DESC_NUM" value="100" />
+	
+	<struct name="MaChaiEquipSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="name" type="string" size="MAX_MACHAI_RQUIP_NAME_NUM" cname="名称"/>
+		<entry name="desc" type="string" size="MAX_MACHAI_RQUIP_DESC_NUM" cname="宝物描述"/>
+		<entry name="icon" type="string" size="20" cname="装备ICON"/>
+		<entry name="quality" type="int" cname="宝物质量"/>
+		<entry name="requiredLevel" type="int" cname="穿戴等级" />
+		<entry name="chip1" type="int" cname="合成碎片1"/>
+		<entry name="chip1_num" type="int" cname="碎片1数量"/>
+		<entry name="chip2" type="int" cname="合成碎片2"/>
+		<entry name="chip2_num" type="int" cname="碎片2数量"/>
+		<entry name="chip3" type="int" cname="合成碎片3"/>
+		<entry name="chip3_num" type="int" cname="碎片3数量"/>
+		<entry name="hp" type="int" cname="生命"/>
+		<entry name="attack" type="int" cname="攻击"/>
+		<entry name="defence" type="int" cname="防御"/>
+		<entry name="type" type="int" cname="宝物类型"/>
+	</struct>
+</metalib>

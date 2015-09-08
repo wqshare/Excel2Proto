@@ -1,0 +1,25 @@
+option optimize_for = LITE_RUNTIME;
+
+message SkillSet
+{
+ required int32 ID = 1;
+ required int32 Factor = 10;
+ required int32 Count = 11;
+ required int32 AddtionalDamage = 12;
+ required int32 CD = 13;
+ required int32 Gold = 14;
+ required string IconID = 15;
+ required int32 randomDamage = 16;
+ required int32 actId = 17;
+ required int32 fightCapactiy = 18;
+ required int32 skillUpgradeItemNum = 19;
+ required string SkillName = 2;
+ required int32 showSkillId = 20;
+ required int32 Sequence = 3;
+ required int32 Job = 4;
+ required int32 UnLockLevel = 5;
+ required string SkillDesc = 6;
+ required int32 SkillClass = 7;
+ required int32 Level = 8;
+ required int32 Type = 9;
+}

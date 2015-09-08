@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_DESC_NUM" value="10" />
+	<macro name="MAX_DESC_LENGTH" value="200" />
+	<struct name="VIPDescSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="descNum" type="int" cname="数量"/>
+		<entry name="descItem" type="String" count="MAX_DESC_NUM" size="MAX_DESC_LENGTH" refer="descNum" cname="描述"/>
+	</struct>
+</metalib>

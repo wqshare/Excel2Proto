@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_UI_NAME_NUM" value="30" />
+
+	<struct name="UISet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="name" type="string" size="MAX_UI_NAME_NUM" cname="名称"/>		
+		<entry name="type1" type="int"  cname="种类"/>
+		<entry name="type2" type="int"  cname="类型"/>
+		<entry name="order" type="int"  cname="顺序位置"/>
+		<entry name="level" type="int"  cname="开启等级"/>
+		<entry name="questID" type="int"  cname="条件任务ID"/>
+		<entry name="nextOpenSeq" type="int"  cname="即将开放"/>
+	</struct>
+</metalib>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="PassInfo" version="1">
+		<entry name="id" type="int" cname="ID"/>
+	</struct>	
+
+	<struct name="AnabasisPassSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="序号"/>
+		<entry name="matchPveLevel" type="int"  cname="关卡怪等级系数"/>
+		<entry name="matchDLevel" type="int"  cname="匹配玩家等级"/>
+		<entry name="rewardNum" type="int"  cname="奖励序号"/>
+		<entry name="num" type="int"  cname="关卡ID组"/>
+		<entry name="pass" type="PassInfo" count="12" refer="num" cname="关卡"/>		
+	</struct>
+</metalib>

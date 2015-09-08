@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "SpecialRewardItem.proto";
+message SpecialRewardSet
+{
+ required int32 ID = 1;
+ required int32 rewardNum = 2;
+ repeated SpecialRewardItem rewardItem = 3;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_TIANTIANYOULI_CONTENT_STRING_LEN" value="200" />
+	<macro name="MAX_TIANTIANYOULI_DESC_STRING_LEN" value="400" />
+  <struct name="PropGiftAttr" version="1">
+		<entry name="id" type="int" cname="ID"/>
+		<entry name="num" type="int" cname="数量"/>
+  </struct>
+
+  <struct name="TiantianyouliSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="id"/>	
+	<entry name="startYear" type="int" cname="活动开始年"/>
+	<entry name="startMonth" type="int" cname="活动开始月"/>
+	<entry name="startDay" type="int" cname="活动开始日"/>
+	<entry name="endYear" type="int" cname="活动结束年"/>
+	<entry name="endMonth" type="int" cname="活动结束月"/>
+	<entry name="endDay" type="int" cname="活动结束日"/>
+	<entry name="content" type="string" size="MAX_TIANTIANYOULI_CONTENT_STRING_LEN" cname="活动内容"/>
+	<entry name="days" type="int" cname="活动期间累计充值天数"/>
+	<entry name="desc" type="string" size="MAX_TIANTIANYOULI_DESC_STRING_LEN" cname="描述"/>	
+	<entry name="quota" type="int" cname="充值额度"/>
+	<entry name="dropId" type="int" cname="掉落ID"/>
+	<entry name="attrNum" type="int" cname="道具数量"/>
+	<entry name="prop" type="PropGiftAttr" count="4" refer="attrNum" cname="道具"/>    
+  </struct>
+
+  <struct name="CumulativeRechargeSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="id"/>
+	<entry name="startYear" type="int" cname="活动开始年"/>
+	<entry name="startMonth" type="int" cname="活动开始月"/>
+	<entry name="startDay" type="int" cname="活动开始日"/>
+	<entry name="endYear" type="int" cname="活动结束年"/>
+	<entry name="endMonth" type="int" cname="活动结束月"/>
+	<entry name="endDay" type="int" cname="活动结束日"/>
+	<entry name="content" type="string" size="MAX_TIANTIANYOULI_CONTENT_STRING_LEN" cname="活动内容"/>	
+	<entry name="desc" type="string" size="MAX_TIANTIANYOULI_DESC_STRING_LEN" cname="描述"/>
+	<entry name="quota" type="int" cname="充值额度"/>
+	<entry name="dropId" type="int" cname="掉落ID"/>
+	<entry name="attrNum" type="int" cname="道具数量"/>
+	<entry name="prop" type="PropGiftAttr" count="4" refer="attrNum" cname="道具"/>    
+  </struct> 
+  
+  <struct name="DanbichongzhiSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="id"/>	
+	<entry name="startYear" type="int" cname="活动开始年"/>
+	<entry name="startMonth" type="int" cname="活动开始月"/>
+	<entry name="startDay" type="int" cname="活动开始日"/>
+	<entry name="endYear" type="int" cname="活动结束年"/>
+	<entry name="endMonth" type="int" cname="活动结束月"/>
+	<entry name="endDay" type="int" cname="活动结束日"/>
+	<entry name="content" type="string" size="MAX_TIANTIANYOULI_CONTENT_STRING_LEN" cname="活动内容"/>
+	<entry name="desc" type="string" size="MAX_TIANTIANYOULI_DESC_STRING_LEN" cname="描述"/>	
+	<entry name="quota1" type="int" cname="IOS充值额度"/>
+	<entry name="quota2" type="int" cname="安卓/越狱充值额度"/>
+	<entry name="dropId" type="int" cname="掉落ID"/>
+	<entry name="attrNum" type="int" cname="道具数量"/>
+	<entry name="prop" type="PropGiftAttr" count="4" refer="attrNum" cname="道具"/>    
+  </struct>  
+  
+  
+</metalib>

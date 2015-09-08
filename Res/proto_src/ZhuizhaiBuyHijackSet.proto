@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhuizhaiBuyHijackSet
+{
+ required int32 ID = 1;
+ required int32 diamond = 2;
+}

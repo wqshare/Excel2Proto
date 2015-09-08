@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message LevelRewardSet
+{
+ required int32 ID = 1;
+ required int32 arenaGold = 10;
+ required int32 level = 2;
+ required int32 Conditions = 3;
+ required string desc = 4;
+ required int32 dropId = 5;
+ required int32 diamond = 6;
+ required int32 gold = 7;
+ required int32 dragonSoul = 8;
+ required int32 liemingGold = 9;
+}

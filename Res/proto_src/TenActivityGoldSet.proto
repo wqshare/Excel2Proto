@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message TenActivityGoldSet
+{
+ required int32 ID = 1;
+ required int32 dropID = 2;
+ required int32 itemId = 3;
+ required int32 num = 4;
+ required int32 probability = 5;
+ required int32 minLevel = 6;
+ required int32 maxLevel = 7;
+ required int32 vipLevel = 8;
+ required int32 show = 9;
+}

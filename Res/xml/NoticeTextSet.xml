@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_NOTICE_TEXT_LENGTH" value="150" />
+	<macro name="MAX_COLOR_NUM" value="8" />
+	
+	<struct name="NoticeText" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="desc" type="string" size="MAX_NOTICE_TEXT_LENGTH" cname="内容"/>
+		<entry name="colorNum" type="int" cname="颜色数量"/>
+		<entry name="colorId" type="int" count="MAX_COLOR_NUM" refer="colorNum" cname="颜色"/>
+	</struct>
+</metalib>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="LiemingSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="猎命师等级"/>
+		<entry name="price" type="int" cname="价格"/>
+		<entry name="lockPrice" type="int" cname="锁定水晶价格"/>
+		<entry name="upgradeProbability" type="int" cname="普通升级概率"/>
+		<entry name="upgradeLockProbability" type="int" cname="锁定升级概率"/>
+		<entry name="minggeID" type="int" cname="普通产出ID"/>
+		<entry name="minggeLockID" type="int" cname="锁定产出ID"/>
+	</struct>
+</metalib>

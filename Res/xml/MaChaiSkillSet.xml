@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MACHAI_SKILL_NAME_NUM" value="50" />
+	<macro name="MAX_MACHAI_SKILL_DESC_NUM" value="200" />
+	
+	<struct name="MaChaiSkillSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="name" type="string" size="MAX_MACHAI_SKILL_NAME_NUM" cname="技能名称"/>
+		<entry name="desc" type="string" size="MAX_MACHAI_SKILL_DESC_NUM" cname="技能说明"/>
+		<entry name="level" type="int" cname="技能等级"/>
+		<entry name="attackRatio" type="float" cname="攻击力倍数"/>
+		<entry name="damageRatio" type="float" cname="伤害倍数"/>
+		<entry name="conid" type="string" size="20" cname="ICONID"/>
+	
+		<entry name="fc" type="int" cname="战斗力"/>
+	</struct>
+</metalib>

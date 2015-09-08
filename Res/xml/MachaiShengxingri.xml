@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MACHAISHENGXINGRI_RES_NAME_LEN" value="50" />
+
+  <struct name="MachaiShengxingriSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="id"/>	
+	<entry name="nextId" type="int" cname="下一ID"/>
+	<entry name="machaiId" type="int" cname="马仔ID"/>
+	<entry name="halfBodyIcon" type="string" size="MAX_MACHAISHENGXINGRI_RES_NAME_LEN" cname="半身像资源"/>
+	<entry name="fragIcon" type="string" size="MAX_MACHAISHENGXINGRI_RES_NAME_LEN" cname="碎片图标"/>
+	<entry name="itemId" type="int" cname="奖励道具ID"/>
+	<entry name="machaiName" type="string" size="MAX_MACHAISHENGXINGRI_RES_NAME_LEN" cname="马仔名字"/> 
+  </struct>
+
+  <struct name="MachaiShengxingriRewardSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="马仔星级"/>
+	<entry name="freeNum" type="int" cname="免费赠送数量"/>
+	<entry name="num1" type="int" cname="第1次十连抽赠送数量"/>
+	<entry name="num2" type="int" cname="第2次十连抽赠送数量"/>
+	<entry name="num3" type="int" cname="第3次十连抽赠送数量"/>  
+  </struct> 
+  
+  
+</metalib>

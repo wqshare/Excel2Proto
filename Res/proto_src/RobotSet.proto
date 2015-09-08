@@ -1,0 +1,20 @@
+option optimize_for = LITE_RUNTIME;
+import "AttrList.proto";
+import "SkillList.proto";
+message RobotSet
+{
+ required int32 ID = 1;
+ required int32 camp = 10;
+ required int32 attrNum = 11;
+ repeated AttrList attrData = 12;
+ required int32 skillNum = 13;
+ repeated SkillList skillData = 14;
+ required string name = 2;
+ required int32 posX = 3;
+ required int32 posY = 4;
+ required int32 level = 5;
+ required int32 job = 6;
+ required int32 avataId = 7;
+ required int32 wingId = 8;
+ required float fc = 9;
+}

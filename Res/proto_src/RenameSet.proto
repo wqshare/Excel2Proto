@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message RenameSet
+{
+ required int32 ID = 1;
+ required int32 limitLv = 2;
+ required int32 diamond = 3;
+}

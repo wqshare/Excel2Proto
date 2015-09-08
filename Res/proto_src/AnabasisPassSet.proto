@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "PassInfo.proto";
+message AnabasisPassSet
+{
+ required int32 ID = 1;
+ required int32 matchPveLevel = 2;
+ required int32 matchDLevel = 3;
+ required int32 rewardNum = 4;
+ required int32 num = 5;
+ repeated PassInfo pass = 6;
+}

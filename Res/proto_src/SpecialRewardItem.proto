@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message SpecialRewardItem
+{
+ required int32 itemID = 1;
+ required int32 itemNum = 2;
+ required int32 itemOdds = 3;
+}

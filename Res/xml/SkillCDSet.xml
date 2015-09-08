@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_SKILL_CD_NAME_LENGTH" value="150" />
+  <struct name="SkillCDSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>
+    <entry name="SkillName" type="string" size="MAX_SKILL_CD_NAME_LENGTH" cname="技能名称"/>
+    <entry name="Job" type="int" cname="职业"/>
+    <entry name="UnLockLevel" type="int" cname="解锁等级"/>
+    <entry name="SkillDesc" type="string" size="MAX_SKILL_CD_NAME_LENGTH" cname="技能说明"/>
+    <entry name="SkillCD" type="int" cname="技能CD"/>
+	<entry name="needGold" type="int" cname="消耗金币"/>
+	<entry name="level" type="int" cname="等级"/>
+	<entry name="needItemLevel" type="int" cname="需求物品等级"/>
+	<entry name="needItgemNum" type="int" cname="物品数量"/>
+	<entry name="fightNum" type="int" cname="战斗力"/>
+	<entry name="totalfightNum" type="int" cname="总战斗力"/>
+	<entry name="skillSort" type="int" cname="顺序"/>
+  </struct>
+</metalib>

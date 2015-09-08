@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "ConstantAttr.proto";
+message FormulaConstantSet
+{
+ required int32 ID = 1;
+ required int32 num = 2;
+ repeated ConstantAttr attrData = 3;
+}

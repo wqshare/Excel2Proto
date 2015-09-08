@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message ExpSet
+{
+ required int32 ID = 1;
+ required int32 exp = 2;
+ required int32 power = 3;
+ required int32 addPower = 4;
+}

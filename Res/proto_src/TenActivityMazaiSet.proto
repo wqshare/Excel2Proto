@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message TenActivityMazaiSet
+{
+ required int32 ID = 1;
+ required int32 mazaiId = 2;
+ required int32 nextId = 3;
+ required string iconId = 4;
+ required string mazaiName = 5;
+ required int32 attachProbability = 6;
+}

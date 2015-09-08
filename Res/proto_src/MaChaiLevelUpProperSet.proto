@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiLevelUpProperSet
+{
+ required int32 ID = 1;
+ required float hp = 2;
+ required float attack = 3;
+ required float defence = 4;
+}

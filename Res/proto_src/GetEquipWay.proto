@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+import "EquipWay.proto";
+message GetEquipWay
+{
+ required int32 ID = 1;
+ required int32 getWayDecid = 2;
+ required string name = 3;
+ required int32 WayNum = 4;
+ repeated EquipWay WayS = 5;
+}

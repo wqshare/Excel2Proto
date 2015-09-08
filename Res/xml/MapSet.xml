@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MAP_NAME_LENGTH" value="20" />	
+	<macro name="MAX_UNLOCK_COND_NUM" value="2" />
+	<macro name="MAX_MONSTER_LIST_NUM" value="10" />
+	<macro name="MAX_MONSTER_GROUP_NUM" value="10" />
+	<macro name="MAX_MAP_DESC_NUM" value="100" />
+	<struct name="UnLockCond" version="1">
+		<entry name="unlockIf" type="int" cname="类型"/>
+		<entry name="unlockParam" type="int" cname="参数"/>
+	</struct>	
+	<struct name="MonsterGroup" version="1">
+		<entry name="monsterId" type="int" cname="ID"/>
+	</struct>
+	<struct name="MapSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="地图id"/>
+		<entry name="mapType" type="int" cname="地图类型"/>
+		<entry name="storyIndex" type="int" cname="章节"/>
+		<entry name="mapName" type="string" size="40"  cname="地图名字"/>
+		<entry name="mapDesc" type="string" size="MAX_MAP_DESC_NUM"  cname="关卡说明"/>
+		<entry name="IconID" type="string" size="MAX_MAP_NAME_LENGTH" cname="Iconid"/>
+		<entry name="backgroudMusic" type="int" cname="背景音乐"/>
+		<entry name="bornPosX" type="int" cname="出生坐标x"/>
+		<entry name="bornPosY" type="int" cname="出生坐标y"/>
+		<entry name="bornRightPosX" type="int" cname="出生坐标右x"/>
+		<entry name="bornRightPosY" type="int" cname="出生坐标右y"/>	
+		<entry name="mapAI" type="string" size="MAX_MAP_NAME_LENGTH" cname="副本AI"/>		
+		<entry name="timeLimit" type="int" cname="时间限制"/>		
+		<entry name="raidGatewayPosX" type="int" cname="副本传送门坐标X"/>
+		<entry name="raidGatewayPosY" type="int" cname="副本传送门坐标Y"/>				
+		<entry name="mapGatewayPosX" type="int" cname="地图传送门坐标X"/>
+		<entry name="mapGatewayPosY" type="int" cname="地图传送门坐标Y"/>	
+		<entry name="mapPath" type="string"  size="MAX_MAP_NAME_LENGTH" cname="地图资源路径"/>	
+		
+		<entry name="powerCost" type="int" cname="体力消耗"/>
+		<entry name="recommendFightCap" type="int" cname="推荐战斗力"/>	
+		
+		<entry name="startCondMinPlayer" type="int" cname="开始条件最少人数"/>
+		<entry name="startCondMaxPlayer" type="int" cname="开始条件最多人数"/>
+		<entry name="enterTimeLimit" type="int" cname="每日开启次数上限"/>
+		<entry name="coolDown" type="int" cname="副本冷却时间"/>
+		<entry name="resetTime" type="int" cname="每日副本重置时间"/>
+		<entry name="lastTime" type="int" cname="副本时长"/>
+		<entry name="unlockCondNum" type="int" cname="解锁条件数"/>
+		<entry name="condRelation" type="int" cname="组合条件"/>
+		<entry name="unlockCond" type="UnLockCond" count="MAX_UNLOCK_COND_NUM" refer="unlockCondNum" cname="解锁条件"/>		
+		
+		<entry name="dropId" type="int" cname="掉落"/>
+		<entry name="bossId" type="int" cname="BOSS"/>
+		<entry name="monsterListNum" type="int" cname="怪物列表数目"/>
+		<entry name="monsterList" type="MonsterGroup" count="MAX_MONSTER_LIST_NUM" refer="monsterListNum" cname="怪物列表"/>		
+		
+		<entry name="mountGroupNum" type="int" cname="怪物组数量"/>	
+		<entry name="mountGroup" type="int" count="MAX_MONSTER_GROUP_NUM" refer="mountGroupNum" cname="怪物组"/>	
+			
+	</struct>
+</metalib>

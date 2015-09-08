@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="RoleAttrSet" version="1" sortkey="ID">
+		<entry name="Prof" type="int" cname="职业"/>
+		<entry name="Level" type="int" cname="等级"/>
+		<entry name="Hp" type="int" cname="生命"/>
+		<entry name="Attack" type="int" cname="攻击"/>
+		<entry name="Defence" type="int" cname="防御"/>	
+	</struct>
+</metalib>

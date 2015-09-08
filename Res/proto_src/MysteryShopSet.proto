@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message MysteryShopSet
+{
+ required int32 ID = 1;
+ required int32 label = 10;
+ required int32 salePirce = 11;
+ required int32 minLevel = 12;
+ required int32 maxLevel = 13;
+ required int32 vipLevel = 14;
+ required int32 dropId = 2;
+ required int32 itemId = 3;
+ required string goodsName = 4;
+ required int32 goodsCount = 5;
+ required int32 probability = 6;
+ required int32 gold = 7;
+ required int32 diamond = 8;
+ required int32 jinDou = 9;
+}

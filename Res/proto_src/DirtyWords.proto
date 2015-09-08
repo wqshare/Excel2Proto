@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message DirtyWords
+{
+ required int32 ID = 1;
+ required string desc = 2;
+}

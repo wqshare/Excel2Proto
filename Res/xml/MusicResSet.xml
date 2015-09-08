@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="MusicRes" version="2" >
+	<macro name="MAX_MUSIC_NAME_LENGTH" value="128" />
+	<struct name="MusicResSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="musicEvent" type="string" size="MAX_MUSIC_NAME_LENGTH" cname="事件名字"/>
+		<entry name="isBGM" type="int" cname="是否是背景音乐" />
+	</struct>
+</metalib>

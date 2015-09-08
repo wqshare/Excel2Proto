@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="AttrList" version="1">
+		<entry name="attrID" type="int" cname="类型"/>
+		<entry name="attrNum" type="int" cname="数值"/>
+	</struct>
+
+	<struct name="SkillList" version="1">
+		<entry name="skillID" type="int" cname="ID"/>
+	</struct>
+	
+	<struct name="RobotSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="角色id"/>
+		<entry name="name" type="string" size="20" cname="姓名"/>
+		<entry name="posX" type="int" cname="x轴"/>
+		<entry name="posY" type="int" cname="y轴"/>
+		<entry name="level" type="int" cname="等级"/>
+		<entry name="job" type="int" cname="职业"/>
+		<entry name="avataId" type="int" cname="时装id"/>
+		<entry name="wingId" type="int" cname="翅膀id"/>
+		<entry name="fc" type="float" cname="战斗力"/>
+		<entry name="camp" type="int" cname="阵营"/>
+		<entry name="attrNum" type="int" cname="属性数目"/>
+		<entry name="attrData" type="AttrList" count="22" refer="attrNum" cname="属性"/>
+		<entry name="skillNum" type="int" cname="技能数目"/>
+		<entry name="skillData" type="SkillList" count="20" refer="skillNum" cname="技能"/>
+	</struct>
+</metalib>

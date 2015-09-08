@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+import "WingAttr.proto";
+message WingSet
+{
+ required int32 ID = 1;
+ repeated WingAttr attr = 10;
+ required string wingName = 2;
+ required int32 level = 3;
+ required int32 wingExp = 4;
+ required int32 maxLv = 5;
+ required string iconId = 6;
+ required int32 conditions = 7;
+ required int32 params = 8;
+ required int32 attrNum = 9;
+}

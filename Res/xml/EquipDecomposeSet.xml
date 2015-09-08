@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="EquipDecomposeSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="分解ID"/>
+		<entry name="material_id1" type="int" cname="所得材料ID1"/>
+		<entry name="num1" type="int" cname="基础数量1"/>
+		<entry name="material_id2" type="int" cname="所得材料ID2"/>
+		<entry name="num2" type="int" cname="基础数量2"/>
+		<entry name="material_id3" type="int" cname="所得材料3ID"/>
+		<entry name="num3" type="int" cname="基础数量3"/>
+		<entry name="material_id4" type="int" cname="所得材料ID4"/>
+		<entry name="num4" type="int" cname="基础数量4"/>		
+	</struct>
+</metalib>

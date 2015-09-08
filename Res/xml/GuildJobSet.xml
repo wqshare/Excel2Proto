@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildJobSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="人员级别"/>
+		<entry name="name" type="string" size="50" cname="名称"/>
+		<entry name="isAdmin" type="int" cname="是否是管理人员"/>
+		<entry name="isCore" type="int" cname="核心任免"/>
+		<entry name="powersGive" type="int" cname="职权赋予"/>
+		<entry name="recvMember" type="int" cname="接收社员"/>
+		<entry name="expelMember" type="int" cname="驱逐社员"/>
+		<entry name="document" type="int" cname="公文权"/>
+		<entry name="guildDevel" type="int" cname="社团建设"/>
+		<entry name="guildBattle" type="int" cname="社团战报名"/>
+		<entry name="guildDonation" type="int" cname="社团捐献"/>
+		<entry name="banSpeech" type="int" cname="成员禁言"/>
+		<entry name="upgrade" type="int" cname="社团升级"/>
+		<entry name="activit" type="int" cname="活动开启"/>
+	</struct>
+</metalib>

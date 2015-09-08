@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message MonsterGroup
+{
+ required int32 monsterId = 1;
+}

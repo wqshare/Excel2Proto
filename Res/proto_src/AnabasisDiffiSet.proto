@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message AnabasisDiffiSet
+{
+ required int32 ID = 1;
+ required int32 level = 2;
+ required int32 pveType = 3;
+ required float hpScale = 4;
+ required float attackScale = 5;
+ required float defenceScale = 6;
+}

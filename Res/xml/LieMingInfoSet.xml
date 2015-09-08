@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="1" >
+	<macro name="MAX_MINGGE_NUM" value="42" />
+	<struct name="MinggeItem" version="1">
+		<entry name="minggeID" type="int" cname="ID"/>
+		<entry name="minggeProbability" type="int" cname="概率"/>
+	</struct>
+
+	<struct name="LieMingInfoSet" version="1"  sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="minggeNum" type="int" cname="命格数量"/>
+		<entry name="minggeItem" type="MinggeItem" count="MAX_MINGGE_NUM" refer="minggeNum" cname="命格"/>
+	</struct>
+
+</metalib>

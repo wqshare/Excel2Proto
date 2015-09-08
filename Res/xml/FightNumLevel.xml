@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_DESC_FIGHTNUMLEVE" value="20" />
+	<struct name="FightNumLevel" version="1" sortkey="ID">
+		<entry name="ID" type="int"  cname="等级ID"/>
+		<entry name="Up" type="int" cname="取值上限"/>
+		<entry name="Down" type="int" cname="取值下限"/>
+		<entry name="Level" type="string" size="MAX_DESC_FIGHTNUMLEVE" cname="等级"/>
+	</struct>
+</metalib>

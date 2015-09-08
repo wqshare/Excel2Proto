@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message NPCSet
+{
+ required int32 ID = 1;
+ required string ResourcePath = 10;
+ required string Name = 2;
+ required int32 City = 3;
+ required int32 NPCFunction = 4;
+ required int32 SerialNum = 5;
+ required int32 HeadIconSize = 6;
+ required int32 posX = 7;
+ required int32 posY = 8;
+ required int32 avataId = 9;
+}

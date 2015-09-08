@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	
+	<struct name="MaChaiExpSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="等级"/>
+		<entry name="q1Exp" type="int" cname="quality1"/>
+		<entry name="q2Exp" type="int" cname="quality2"/>
+		<entry name="q3Exp" type="int" cname="quality3"/>
+		<entry name="q4Exp" type="int" cname="quality4"/>
+		<entry name="tq1Exp" type="int" cname="总经验1"/>
+		<entry name="tq2Exp" type="int" cname="总经验2"/>
+		<entry name="tq3Exp" type="int" cname="总经验3"/>
+		<entry name="tq4Exp" type="int" cname="总经验4"/>
+	</struct>
+</metalib>

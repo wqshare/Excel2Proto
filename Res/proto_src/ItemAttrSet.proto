@@ -1,0 +1,22 @@
+option optimize_for = LITE_RUNTIME;
+
+message ItemAttrSet
+{
+ required int32 ID = 1;
+ required int32 CanSell = 10;
+ required int32 currencyType = 11;
+ required int32 SalePrice = 12;
+ required int32 ComposeID = 13;
+ required int32 stackNum = 14;
+ required int32 ItemColor = 15;
+ required string IconID = 16;
+ required string ItemDesc = 17;
+ required string name = 2;
+ required int32 ItemType = 3;
+ required int32 Uselimit = 4;
+ required int32 UseResult = 5;
+ required int32 limitVal = 6;
+ required int32 canBuy = 7;
+ required int32 buyType = 8;
+ required int32 buyPrice = 9;
+}

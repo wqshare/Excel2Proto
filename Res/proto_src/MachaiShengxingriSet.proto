@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message MachaiShengxingriSet
+{
+ required int32 ID = 1;
+ required int32 nextId = 2;
+ required int32 machaiId = 3;
+ required string halfBodyIcon = 4;
+ required string fragIcon = 5;
+ required int32 itemId = 6;
+ required string machaiName = 7;
+}

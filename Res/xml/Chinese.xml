@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_CHINESE_DESC_NAME_LENGTH" value="150" />
+	<struct name="Chinese" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="内容编号"/>
+		<entry name="desc" type="string" size="MAX_CHINESE_DESC_NAME_LENGTH" cname="内容"/>
+	</struct>
+</metalib>

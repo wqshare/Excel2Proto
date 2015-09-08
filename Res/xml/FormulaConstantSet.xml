@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="ConstantAttr" version="1">
+		<entry name="attrID" type="float" cname="值"/>
+	</struct>
+
+	<struct name="FormulaConstantSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="公式ID"/>
+		<entry name="num" type="int" cname="常数个数"/>		
+		<entry name="attrData" type="ConstantAttr" count="13" refer="num" cname="常数"/>		
+	</struct>
+</metalib>

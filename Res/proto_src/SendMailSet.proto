@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message SendMailSet
+{
+ required int32 ID = 1;
+ required string title = 2;
+ required string sender = 3;
+ required string content = 4;
+}

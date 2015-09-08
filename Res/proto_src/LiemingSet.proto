@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message LiemingSet
+{
+ required int32 ID = 1;
+ required int32 price = 2;
+ required int32 lockPrice = 3;
+ required int32 upgradeProbability = 4;
+ required int32 upgradeLockProbability = 5;
+ required int32 minggeID = 6;
+ required int32 minggeLockID = 7;
+}

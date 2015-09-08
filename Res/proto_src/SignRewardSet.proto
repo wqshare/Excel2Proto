@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message SignRewardSet
+{
+ required int32 ID = 1;
+ required int32 RewardId = 2;
+ required int32 RewardNum = 3;
+ required int32 GoldNum = 4;
+ required int32 DiamonNum = 5;
+ required int32 Strength = 6;
+ required int32 VIPCondition = 7;
+ required int32 VIPTimes = 8;
+}

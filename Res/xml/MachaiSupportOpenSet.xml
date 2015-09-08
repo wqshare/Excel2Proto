@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="MaChaiSupportOpenSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="援护位"/>
+		<entry name="Level" type="int" cname="需求等级"/>
+	</struct>
+</metalib>

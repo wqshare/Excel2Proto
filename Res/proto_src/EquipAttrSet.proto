@@ -1,0 +1,23 @@
+option optimize_for = LITE_RUNTIME;
+import "EquipAttr.proto";
+message EquipAttrSet
+{
+ required int32 ID = 1;
+ required int32 combineID = 10;
+ required int32 upgradeLvID = 11;
+ required int32 canSell = 12;
+ required int32 sellPrice = 13;
+ required int32 timeLimit = 14;
+ required int32 attrNum = 15;
+ repeated EquipAttr attrData = 16;
+ required string desc = 17;
+ required string iconID = 18;
+ required string name = 2;
+ required int32 jobLimit = 3;
+ required int32 equipPos = 4;
+ required int32 levelLimit = 5;
+ required int32 strengthenLimit = 6;
+ required int32 equipColor = 7;
+ required int32 upGradeID = 8;
+ required int32 strongID = 9;
+}

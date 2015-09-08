@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="BossRaidLevelSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="等级"/>
+    <entry name="hpFactor" type="float" cname="血量系数"/>
+	<entry name="attackFactor" type="float" cname="攻击系数"/>
+	<entry name="defenceFactor" type="float" cname="防御系数"/>
+  </struct>
+</metalib>

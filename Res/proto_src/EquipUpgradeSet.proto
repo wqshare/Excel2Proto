@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipUpgradeSet
+{
+ required int32 ID = 1;
+ required float Accurate = 10;
+ required float Dodge = 11;
+ required float Crit = 12;
+ required float Toug = 13;
+ required float DamageAdd = 14;
+ required int32 materialID = 2;
+ required int32 goldNeed = 3;
+ required int32 partMaterialId = 4;
+ required int32 partMaterialNum = 5;
+ required float Hp = 6;
+ required float Attack = 7;
+ required float Defence = 8;
+ required float DamageReduce = 9;
+}

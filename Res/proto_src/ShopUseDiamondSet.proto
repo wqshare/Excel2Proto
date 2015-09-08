@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShopUseDiamondSet
+{
+ required int32 ID = 1;
+ required int32 value = 2;
+ required int32 areneCost = 3;
+ required int32 donateCost = 4;
+}

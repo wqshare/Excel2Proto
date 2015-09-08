@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="CompetitiveRewardDaySet" version="2" >
+  <struct name="CompetitiveRewardDaySet" version="1" sortkey="ID">
+	<entry name="ID" type="int" cname="排名上限"/>
+	<entry name="idLimit" type="int" cname="排名下限"/>
+	<entry name="gold" type="int" cname="金币"/>
+	<entry name="diamond" type="int" cname="钻石"/>
+	<entry name="competitiveGold" type="int" cname="竞技币"/>
+	<entry name="itemId" type="int" cname="竞技奖励ID"/>
+	<entry name="matchingLimit" type="int" cname="随机匹配上限"/>
+  </struct>
+</metalib>

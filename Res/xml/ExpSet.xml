@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="ExpSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="等级"/>
+    <entry name="exp" type="int" cname="升级经验"/>
+	<entry name="power" type="int" cname="体力上限"/>
+	<entry name="addPower" type="int" cname="增加体力"/>
+  </struct>
+</metalib>

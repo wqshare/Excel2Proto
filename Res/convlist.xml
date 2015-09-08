@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+
+<ConvList ResEncoding="UTF-8" IsAllowLackList="false">
+    <MetalibFile File="" />
+    <EntryMapFilesPath Path="..\xml" />
+    <BinFilesPath Path="..\res" />
+    <ExcelFilesPath Path="..\excel" />
+    <KeywordFile File="..\Keywords.xml" />
+
+    <ResStyleList>
+        <ResStyle Name="服务器" ID="0" />
+        <ResStyle Name="客户端" ID="1" />
+    </ResStyleList>
+<!--
+ConvTree Name:             转换工具里面显示的节点
+CommNode Name:             转换工具里面显示的节点
+ResNode Name:              转换工具里面显示的节点
+        Meta:              配置的XML里面的根节点名字
+        BinFile:           output出来的文件的名字，对应的目录是 "../res"
+        EntryMapFile:      配置的XML文件的名字，对应的目录是 "../xml
+        IncludeSheet:      excel文件的表名
+        ExcelFile:         excel文件的名字，对应的目录是 "../excel"
+-->
+
+    <ConvTree Name="资源表">              <!-- 转换工具里面显示的节点-->
+    
+    	<CommNode Name="A_Avatar资源对应表"> <!-- done-->
+			<ResNode Name="C_Avatar"
+				Meta="AvatarResSet" 
+				BinFile="client\AvatarResSet.bin"   
+				EntryMapFile="client\AvatarRes.xml"
+				IncludeSheet="D_avatar"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏资源配置.xlsm"
+			/>
+		</CommNode>
+		
+		<CommNode Name="B_BOSS难度系数"> <!-- done-->
+			<ResNode Name="C_BOSS难度系数"
+				Meta="BossDifficultySet" 
+				BinFile="client\BossDifficultySet.bin"   
+				EntryMapFile="client\BossDifficultySet.xml"
+				IncludeSheet="D_关卡怪物类型血条判断"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="地图.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="B_BOSS副本难度系数"> <!-- done-->
+			<ResNode Name="C_BOSS副本难度系数"
+				Meta="BossRaidDifficultySet" 
+				BinFile="client\BossRaidDifficultySet.bin"   
+				EntryMapFile="client\BossRaidDifficultySet.xml"
+				IncludeSheet="D_BOSS副本难度系数"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="B_BOSS副本等级难度系数"> <!-- done-->
+			<ResNode Name="C_BOSS副本等级难度系数"
+				Meta="BossRaidLevelSet" 
+				BinFile="client\BossRaidLevelSet.bin"   
+				EntryMapFile="client\BossRaidLevelSet.xml"
+				IncludeSheet="D_BOSS副本等级难度系数"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="B_Buff图标"> <!-- done-->
+			<ResNode Name="C_Buff图标"
+				Meta="BuffIconSet" 
+				BinFile="client\BuffIconSet.bin"   
+				EntryMapFile="client\BuffIconSet.xml"
+				IncludeSheet="D_BUFF表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="C_错误代码" >      <!-- done-->
+			<ResNode Name="C_错误代码"
+				Meta="ErrorCodeSet"
+				BinFile="client\ErrorCode.bin"
+				EntryMapFile="client\ErrorCodeSet.xml"
+				IncludeSheet="D_错误代码"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>
+		</CommNode>
+
+
+
+		<CommNode Name="C_Chinese" >      <!-- done-->
+			<ResNode Name="C_Chinese"
+				Meta="Chinese"
+				BinFile="client\Chinese.bin"
+				EntryMapFile="client\Chinese.xml"
+				IncludeSheet="D_文字转化"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>
+		</CommNode>
+
+
+		<CommNode Name="C_翅膀表"> <!-- done-->
+			<ResNode Name="C_翅膀表"
+				Meta="WingSet" 
+				BinFile="client\WingSet.bin"   
+				EntryMapFile="client\WingSet.xml"
+				IncludeSheet="D_翅膀表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="翅膀.xlsm"
+			/>			
+		</CommNode>
+
+
+		<CommNode Name="C_称号"> <!-- done-->
+			<ResNode Name="C_称号"
+				Meta="PlayerTitleSet" 
+				BinFile="client\PlayerTitleSet.bin"   
+				EntryMapFile="client\PlayerTitleSet.xml"
+				IncludeSheet="D_称号"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="称号.xlsm"
+			/>			
+		</CommNode>	
+
+
+
+		<CommNode Name="C_成就表">
+			<ResNode Name="C_成就表"
+				Meta="AchievementSet" 
+				BinFile="client\AchievementSet.bin"   
+				EntryMapFile="client\AchievementSet.xml"
+				IncludeSheet="D_成就任务"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="任务.xlsm"
+		/>
+		</CommNode>	
+
+		<CommNode Name="D_点金手">
+			<ResNode Name="C_点金手"
+				Meta="ClickGoldSet" 
+				BinFile="client\ClickGoldSet.bin"   
+				EntryMapFile="client\ClickGoldSet.xml"
+				IncludeSheet="D_点金手"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="D_地图对应表"> <!-- done-->
+			<ResNode Name="C_Map"
+				Meta="MapSet" 
+				BinFile="client\MapSet.bin"   
+				EntryMapFile="client\MapSet.xml"
+				IncludeSheet="D_地图数据"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="地图.xlsm"
+			/>
+		</CommNode>	
+
+
+
+		<CommNode Name="D_点金手概率表">
+			<ResNode Name="C_点金手概率表"
+				Meta="ClickGoldProbabilitySet" 
+				BinFile="client\ClickGoldProbabilitySet.bin"   
+				EntryMapFile="client\ClickGoldProbabilitySet.xml"
+				IncludeSheet="D_点金手概率表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="D_点金手计算表">
+			<ResNode Name="C_点金手计算表"
+				Meta="ClickGoldCountSet" 
+				BinFile="client\ClickGoldCountSet.bin"   
+				EntryMapFile="client\ClickGoldCountSet.xml"
+				IncludeSheet="D_点金手计算表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>
+
+
+	<CommNode Name="D_等级礼包">
+			<ResNode Name="C_等级礼包"
+				Meta="LevelRewardSet" 
+				BinFile="client\LevelRewardSet.bin"   
+				EntryMapFile="client\LevelRewardSet.xml"
+				IncludeSheet="D_等级礼包"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"		
+		/>
+		</CommNode>
+
+	<CommNode Name="D_等级礼包配置">
+			<ResNode Name="C_等级礼包配置"
+				Meta="LevelGiftConfigSet" 
+				BinFile="client\LevelGiftConfigSet.bin"   
+				EntryMapFile="client\LevelGiftConfigSet.xml"
+				IncludeSheet="D_等级礼包配置"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"		
+		/>
+		</CommNode>
+		
+	<CommNode Name="F_FightNumUp" >      <!-- done-->
+			<ResNode Name="C_FightNumUp"
+				Meta="FightNumUp"
+				BinFile="client\FightNumUp.bin"
+				EntryMapFile="client\FightNumUp.xml"
+				IncludeSheet="D_我要变强"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>
+		</CommNode>
+		
+		
+
+	<CommNode Name="F_奖励表" > <!-- done-->
+			<ResNode Name="C_副本奖励表"
+				Meta="RaidRewardSet" 
+				BinFile="client\RaidRewardSet.bin"   
+				EntryMapFile="client\RaidReward.xml"
+				IncludeSheet="D_奖励表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="掉落表.xlsm"
+			/>
+		</CommNode>	
+
+
+
+		
+		<CommNode Name="F_服务器列表"> <!-- done-->
+			<ResNode Name="C_服务器列表"
+				Meta="ServerSet" 
+				BinFile="client\ServerSet.bin"   
+				EntryMapFile="client\ServerSet.xml"
+				IncludeSheet="D_服务器配置"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="G_关卡BOSS血条判断"> <!-- done-->
+			<ResNode Name="C_关卡难度系数"
+				Meta="RaidDifficultySet" 
+				BinFile="client\RaidDifficultySet.bin"   
+				EntryMapFile="client\RaidDifficultySet.xml"
+				IncludeSheet="D_关卡BOSS血条判断"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="地图.xlsm"
+			/>			
+		</CommNode>
+
+
+
+		<CommNode Name="G_怪物" > <!-- done-->   
+			<ResNode Name="C_怪物"
+				Meta="MonsterSet" 
+				BinFile="client\MonsterSet.bin"   
+				EntryMapFile="client\MonsterSet.xml"
+				IncludeSheet="D_怪物表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="怪物表.xlsm"
+			/>
+		</CommNode>
+
+
+
+	<CommNode Name="G_工会等级表"> <!-- done-->
+			<ResNode Name="C_工会等级表"
+				Meta="GuildLevelSet" 
+				BinFile="client\GuildLevelSet.bin"   
+				EntryMapFile="client\GuildLevelSet.xml"
+				IncludeSheet="D_公会等级表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="G_工会职务表"> <!-- done-->
+			<ResNode Name="C_工会职务表"
+				Meta="GuildJobSet" 
+				BinFile="client\GuildJobSet.bin"   
+				EntryMapFile="client\GuildJobSet.xml"
+				IncludeSheet="D_公会职务表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>	
+
+		<CommNode Name="G_公会Icon表"> <!-- done-->
+			<ResNode Name="C_关卡评星奖励"
+				Meta="GuildIconSet" 
+				BinFile="client\GuildIconSet.bin"   
+				EntryMapFile="client\GuildIconSet.xml"
+				IncludeSheet="D_公会ICON表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="G_公会工坊表"> <!-- done-->
+			<ResNode Name="C_公会工坊表"
+				Meta="GuildWorkshopSet" 
+				BinFile="client\GuildWorkshopSet.bin"   
+				EntryMapFile="client\GuildWorkshopSet.xml"
+				IncludeSheet="D_公会工坊表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="G_公会工坊技能表"> <!-- done-->
+			<ResNode Name="C_公会工坊技能表"
+				Meta="GuildWorkshopSkillSet" 
+				BinFile="client\GuildWorkshopSkillSet.bin"   
+				EntryMapFile="client\GuildWorkshopSkillSet.xml"
+				IncludeSheet="D_公会技能表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="G_公会工坊技能描述"> <!-- done-->
+			<ResNode Name="C_关卡评星奖励"
+				Meta="GuildWorkshopSkillDescSet" 
+				BinFile="client\GuildWorkshopSkillDescSet.bin"   
+				EntryMapFile="client\GuildWorkshopSkillDescSet.xml"
+				IncludeSheet="D_工坊技能描述表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="G_公会捐献表"> <!-- done-->
+			<ResNode Name="C_关卡评星奖励"
+				Meta="GuildDonateSet" 
+				BinFile="client\GuildDonateSet.bin"   
+				EntryMapFile="client\GuildDonateSet.xml"
+				IncludeSheet="D_捐献表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="G_公会商店表"> <!-- done-->
+			<ResNode Name="C_公会商店表"
+				Meta="GuildStoreSet" 
+				BinFile="client\GuildStoreSet.bin"   
+				EntryMapFile="client\GuildStoreSet.xml"
+				IncludeSheet="D_公会商店"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="公会表.xlsm"
+			/>			
+		</CommNode>
+
+
+
+		<CommNode Name="G_各系统帮助表">
+			<ResNode Name="C_各系统帮助表"
+				Meta="HelpDescSet" 
+				BinFile="client\HelpDescSet.bin"   
+				EntryMapFile="client\HelpDescSet.xml"
+				IncludeSheet="D_系统帮助"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"		
+		/>
+		</CommNode>
+		
+
+		
+		<CommNode Name="G_关卡评星奖励">
+			<ResNode Name="C_关卡评星奖励"
+				Meta="RaidStarRewardSet" 
+				BinFile="client\RaidStarRewardSet.bin"   
+				EntryMapFile="client\RaidStarRewardSet.xml"
+				IncludeSheet="D_关卡评星奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="地图.xlsm"
+			/>			
+		</CommNode>	
+
+
+
+
+	<CommNode Name="G_公式常数表">
+			<ResNode Name="C_公式常数表"
+				Meta="FormulaConstantSet" 
+				BinFile="client\FormulaConstant.bin"   
+				EntryMapFile="client\FormulaConstantSet.xml"
+				IncludeSheet="D_公式常数表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>			
+		</CommNode>	
+		
+		
+		<CommNode Name="H_获取途径" >      <!--  done-->
+			<ResNode Name="C_获取途径"
+				Meta="GetEquipWay"
+				BinFile="client\GetEquipWay.bin"
+				EntryMapFile="client\GetEquipWay.xml"
+				IncludeSheet="D_获取途径"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="道具.xlsm"
+			/>
+		</CommNode>
+
+		<CommNode Name="H_红包配置表">
+			<ResNode Name="C_红包配置表"
+				Meta="RedGiftSet" 
+				BinFile="client\RedGiftSet.bin"   
+				EntryMapFile="client\RedGiftSet.xml"
+				IncludeSheet="D_VIP等级红包配置表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="H_每日副本"> <!-- done-->
+			<ResNode Name="C_活动副本表"
+				Meta="ActivitySet" 
+				BinFile="client\ActivitySet.bin"   
+				EntryMapFile="client\ActivitySet.xml"
+				IncludeSheet="D_每日副本"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"
+			/>			
+		</CommNode>
+		<CommNode Name="H_好友援助机器人"> <!-- done-->
+			<ResNode Name="C_好友援助机器人表"
+				Meta="RobotHelperSet" 
+				BinFile="client\RobotHelperSet.bin"   
+				EntryMapFile="client\RobotHelperSet.xml"
+				IncludeSheet="D_好友援助机器人"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"
+			/>			
+		</CommNode>
+
+	<CommNode Name="J_经验表" >    <!-- done-->   
+			<ResNode Name="C_经验表"
+				Meta="ExpSet"
+				BinFile="client\ExpSet.bin"
+				EntryMapFile="client\ExpSet.xml"
+				IncludeSheet="D_经验表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>
+		</CommNode>
+
+
+		<CommNode Name="J_角色属性" >  <!-- done-->
+			<ResNode Name="C_角色属性"
+				Meta="RoleAttrSet" 
+				BinFile="client\RoleAttrSet.bin"   
+				EntryMapFile="client\RoleAttrSet.xml"
+				IncludeSheet="D_角色属性" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>
+		</CommNode>
+
+		<CommNode Name="J_角色改名" >  <!-- done-->
+			<ResNode Name="C_角色改名"
+				Meta="RenameSet" 
+				BinFile="client\RenameSet.bin"   
+				EntryMapFile="client\RenameSet.xml"
+				IncludeSheet="D_改名消耗" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>
+		</CommNode>
+
+
+
+		<CommNode Name="J_技能表"> <!-- done-->
+			<ResNode Name="C_技能表"
+				Meta="SkillSet" 
+				BinFile="client\SkillSet.bin"   
+				EntryMapFile="client\SkillSet.xml"
+				IncludeSheet="D_技能表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="技能.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="J_技能CD表"> <!-- done-->
+			<ResNode Name="C_技能CD表"
+				Meta="SkillCDSet"
+				BinFile="client\SkillCDSet.bin"   
+				EntryMapFile="client\SkillCDSet.xml"
+				IncludeSheet="D_技能表CD"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="技能.xlsm"
+			/>			
+		</CommNode>
+
+
+
+		<CommNode Name="J_金币商城表"> 
+			<ResNode Name="C_金币商城表"
+				Meta="MallGoldSet" 
+				BinFile="client\MallGoldSet.bin"   
+				EntryMapFile="client\MallGoldSet.xml"
+				IncludeSheet="D_金币商场"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+			/>
+		</CommNode>
+
+
+		<CommNode Name="J_竞技场商城表">
+			<ResNode Name="C_竞技场商城表"
+				Meta="ArenaStoreSet" 
+				BinFile="client\ArenaStoreSet.bin"   
+				EntryMapFile="client\ArenaStoreSet.xml"
+				IncludeSheet="D_竞技场商城"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"
+		/>
+		</CommNode>
+		
+		<CommNode Name="J_竞技场战斗力压制表">
+			<ResNode Name="C_竞技场战斗力压制表"
+				Meta="ArenaFcSuppress" 
+				BinFile="client\ArenaFcSuppress.bin"   
+				EntryMapFile="client\ArenaFcSuppress.xml"
+				IncludeSheet="D_竞技场压制"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"
+		/>
+		</CommNode>	
+
+		<CommNode Name="J_竞技场奖励表">
+			<ResNode Name="C_竞技场奖励表"
+				Meta="ArenaRewardSet" 
+				BinFile="client\ArenaRewardSet.bin"   
+				EntryMapFile="client\ArenaRewardSet.xml"
+				IncludeSheet="D_竞技场奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"
+		/>
+		</CommNode>	
+
+
+
+		<CommNode Name="J_竞技场机器人表">
+			<ResNode Name="C_竞技场机器人表"
+				Meta="RobotSet" 
+				BinFile="client\RobotSet.bin"   
+				EntryMapFile="client\RobotSet.xml"
+				IncludeSheet="D_机器人"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="J_积分商店表">
+			<ResNode Name="C_积分商店表"
+				Meta="MallScoreSet" 
+				BinFile="client\MallScoreSet.bin"   
+				EntryMapFile="client\MallScoreSet.xml"
+				IncludeSheet="D_红包积分商城"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+			/>			
+		</CommNode>
+
+
+		<CommNode Name="L_猎命表"> <!-- done-->
+			<ResNode Name="C_猎命表"
+				Meta="LiemingSet" 
+				BinFile="client\LiemingSet.bin"   
+				EntryMapFile="client\LiemingSet.xml"
+				IncludeSheet="D_LIEMING"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="命格.xlsm"
+			/>			
+		</CommNode>
+		<CommNode Name="L_猎命产生命格概率表"> <!-- done-->
+			<ResNode Name="C_猎命产生命格概率表"
+				Meta="LieMingInfoSet" 
+				BinFile="client\LieMingInfoSet.bin"   
+				EntryMapFile="client\LieMingInfoSet.xml"
+				IncludeSheet="D_猎命产出表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="命格.xlsm"
+			/>			
+		</CommNode>
+
+	<CommNode Name="L_龙纹表"> <!-- done-->
+			<ResNode Name="C_龙纹表"
+				Meta="DragonSet" 
+				BinFile="client\DragonSet.bin"   
+				EntryMapFile="client\DragonSet.xml"
+				IncludeSheet="D_龙魂表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="龙魂.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="L_龙纹图表">  <!-- done-->
+			<ResNode Name="C_龙纹图表"
+				Meta="DragonDesignMapSet" 
+				BinFile="client\DragonDesignMapSet.bin"   
+				EntryMapFile="client\DragonDesignMapSet.xml"
+				IncludeSheet="D_龙魂整图属性"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="龙魂.xlsm"
+			/>			
+		</CommNode>
+
+
+
+		<CommNode Name="L_历史最高排名奖励">
+			<ResNode Name="C_历史最高排名奖励"
+				Meta="CompetitiveHistoryRewardSet" 
+				BinFile="client\CompetitiveHistoryRewardSet.bin"   
+				EntryMapFile="client\CompetitiveHistoryRewardSet.xml"
+				IncludeSheet="D_历史最高排名奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"
+		/>
+		</CommNode>
+
+
+		<CommNode Name="L_连续登陆表">
+			<ResNode Name="C_连续登陆表"
+				Meta="ContinuousSet" 
+				BinFile="client\ContinuousSet.bin"   
+				EntryMapFile="client\ContinuousSet.xml"
+				IncludeSheet="D_7天登陆"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+		/>
+		</CommNode>
+
+		<CommNode Name="L_Loading小贴士表">
+			<ResNode Name="C_Loading小贴士表"
+				Meta="LoadingTipsSet" 
+				BinFile="client\LoadingTipsSet.bin"   
+				EntryMapFile="client\LoadingTipsSet.xml"
+				IncludeSheet="D_LOADING小提示"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"		
+		/>
+		</CommNode>
+
+
+
+
+
+		<CommNode Name="M_命格表"> <!-- done-->
+			<ResNode Name="C_命格表"
+				Meta="MinggeSet" 
+				BinFile="client\MinggeSet.bin"   
+				EntryMapFile="client\MinggeSet.xml"
+				IncludeSheet="D_命格表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="命格.xlsm"
+			/>			
+		</CommNode>
+		<CommNode Name="M_命格装备表"> <!-- done-->
+			<ResNode Name="C_命格装备表"
+				Meta="MinggeEquipPosSet" 
+				BinFile="client\MinggeEquipPosSet.bin"   
+				EntryMapFile="client\MinggeEquipPosSet.xml"
+				IncludeSheet="D_命格装备表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="命格.xlsm"
+			/>			
+		</CommNode>	
+
+	<CommNode Name="M_每日结算排名奖励">
+			<ResNode Name="C_每日结算排名奖励"
+				Meta="CompetitiveRewardDaySet" 
+				BinFile="client\CompetitiveRewardDaySet.bin"   
+				EntryMapFile="client\CompetitiveRewardDaySet.xml"
+				IncludeSheet="D_每日排名结算"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="竞技场.xlsm"
+		/>
+		</CommNode>
+
+		<CommNode Name="M_目标选择">
+			<ResNode Name="C_目标选择"
+				Meta="HateSet" 
+				BinFile="client\HateSet.bin"   
+				EntryMapFile="client\HateSet.xml"
+				IncludeSheet="D_目标选择"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"		
+		/>
+		</CommNode>	
+
+
+		<CommNode Name="M_马仔表">  <!-- done-->
+			<ResNode Name="C_马仔表"
+				Meta="MaChaiSet" 
+				BinFile="client\MaChaiSet.bin"   
+				EntryMapFile="client\MaChaiSet.xml"
+				IncludeSheet="D_马仔表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>
+
+
+		
+		<CommNode Name="M_马仔经验表">
+			<ResNode Name="C_马仔经验表"
+				Meta="MaChaiExpSet" 
+				BinFile="client\MaChaiExpSet.bin"   
+				EntryMapFile="client\MaChaiExpSet.xml"
+				IncludeSheet="D_马仔经验"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		<CommNode Name="M_马仔升级属性表">
+			<ResNode Name="C_马仔升级属性表"
+				Meta="MaChaiLevelUpProperSet" 
+				BinFile="client\MaChaiLevelUpProperSet.bin"   
+				EntryMapFile="client\MaChaiLevelUpProperSet.xml"
+				IncludeSheet="D_马仔升级属性"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		
+		<CommNode Name="M_马仔升星灵魂石">
+			<ResNode Name="C_马仔升星灵魂石"
+				Meta="MaChaiStarUpRequireSet" 
+				BinFile="client\MaChaiStarUpRequireSet.bin"   
+				EntryMapFile="client\MaChaiStarUpRequireSet.xml"
+				IncludeSheet="D_马仔升星灵魂石"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		<CommNode Name="M_马仔升星属性">
+			<ResNode Name="C_马仔升星属性"
+				Meta="MaChaiStarUpProperSet" 
+				BinFile="client\MaChaiStarUpProperSet.bin"   
+				EntryMapFile="client\MaChaiStarUpProperSet.xml"
+				IncludeSheet="D_马仔升星属性"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		<CommNode Name="M_马仔培养宝物需求">
+			<ResNode Name="C_马仔培养宝物需求"
+				Meta="MaChaiTrainRequireSet" 
+				BinFile="client\MaChaiTrainRequireSet.bin"   
+				EntryMapFile="client\MaChaiTrainRequireSet.xml"
+				IncludeSheet="D_马仔培养宝物"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		
+		<CommNode Name="M_马仔培养进阶属性">
+			<ResNode Name="C_马仔培养进阶属性"
+				Meta="MaChaiTrainUpProperSet" 
+				BinFile="client\MaChaiTrainUpProperSet.bin"   
+				EntryMapFile="client\MaChaiTrainUpProperSet.xml"
+				IncludeSheet="D_马仔培养进阶属性"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+		
+		
+		
+		
+		<CommNode Name="M_马仔宝物表">
+			<ResNode Name="C_马仔宝物表"
+				Meta="MaChaiEquipSet" 
+				BinFile="client\MaChaiEquipSet.bin"   
+				EntryMapFile="client\MaChaiEquipSet.xml"
+				IncludeSheet="D_马仔宝物"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"		
+		/>
+		</CommNode>
+
+		
+		<CommNode Name="M_马仔BUF表">
+			<ResNode Name="C_马仔BUF表"
+				Meta="MaChaiBuffSet" 
+				BinFile="client\MaChaiBuffSet.bin"   
+				EntryMapFile="client\MaChaiBuffSet.xml"
+				IncludeSheet="D_马仔BUF表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>	
+		
+		<CommNode Name="M_马仔技能表">
+			<ResNode Name="C_马仔技能表"
+				Meta="MaChaiSkillSet" 
+				BinFile="client\MaChaiSkillSet.bin"   
+				EntryMapFile="client\MaChaiSkillSet.xml"
+				IncludeSheet="D_马仔技能"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>	
+
+		<CommNode Name="M_马仔援护位开放表">
+			<ResNode Name="C_马仔援护位开放表"
+				Meta="MaChaiSupportOpenSet" 
+				BinFile="client\MaChaiSupportOpenSet.bin"   
+				EntryMapFile="client\MaChaiSupportOpenSet.xml"
+				IncludeSheet="D__马仔援护位开放"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>	
+		
+		<CommNode Name="M_马仔追债表">
+			<ResNode Name="C_马仔追债表"
+				Meta="ZhuizhaiSet" 
+				BinFile="client\ZhuizhaiSet.bin"   
+				EntryMapFile="client\ZhuizhaiSet.xml"
+				IncludeSheet="D_马仔追债任务表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>		
+		
+		<CommNode Name="M_追债劫掠购买表">
+			<ResNode Name="C_追债劫掠购买表"
+				Meta="ZhuizhaiBuyHijackSet" 
+				BinFile="client\ZhuizhaiBuyHijackSet.bin"   
+				EntryMapFile="client\ZhuizhaiBuyHijackSet.xml"
+				IncludeSheet="D_追债劫掠购买表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="马仔.xlsm"
+			/>			
+		</CommNode>		
+
+
+		<CommNode Name="N_NPC表"> <!-- done-->
+			<ResNode Name="C_NPC表"
+				Meta="NPCSet" 
+				BinFile="client\NPCSet.bin"   
+				EntryMapFile="client\NPCSet.xml"
+				IncludeSheet="D_NPC"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="NPC.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="P_普通掉落表" >  <!-- done-->
+			<ResNode Name="C_普通掉落表"
+				Meta="CommonRewardSet" 
+				BinFile="client\CommonRewardSet.bin"   
+				EntryMapFile="client\CommonReward.xml"
+				IncludeSheet="D_普通掉落表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="掉落表.xlsm"
+			/>
+		</CommNode>
+		
+		<CommNode Name="P_拼战奖励表">
+			<ResNode Name="C_拼战奖励表"
+				Meta="FightRewardSet" 
+				BinFile="client\FightRewardSet.bin"   
+				EntryMapFile="client\FightRewardSet.xml"
+				IncludeSheet="D_拼战"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="R_任务表"> <!-- done-->
+			<ResNode Name="C_任务表"
+				Meta="QuestSet" 
+				BinFile="client\QuestSet.bin"   
+				EntryMapFile="client\QuestSet.xml"
+				IncludeSheet="D_任务"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="任务.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="R_日常任务表"> <!-- done-->
+			<ResNode Name="C_日常任务表"
+				Meta="DailyQuestSet" 
+				BinFile="client\DailyQuestSet.bin"   
+				EntryMapFile="client\DailyQuestSet.xml"
+				IncludeSheet="D_日常任务"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="任务.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="S_神秘商店表"> <!-- done-->
+			<ResNode Name="C_神秘商店表"
+				Meta="MysteryShopSet" 
+				BinFile="client\MysteryShopSet.bin"   
+				EntryMapFile="client\MysteryShopSet.xml"
+				IncludeSheet="D_神秘商店"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+			/>			
+		</CommNode>
+		
+		
+	<CommNode Name="S_首充礼包">
+			<ResNode Name="D_首充礼包"
+				Meta="FirstTopUpSet" 
+				BinFile="client\FirstTopUpSet.bin"   
+				EntryMapFile="client\FirstTopUpSet.xml"
+				IncludeSheet="D_首充礼包"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="S_神秘商店出现概率表"> <!-- done-->
+			<ResNode Name="C_神秘商店出现概率表"
+				Meta="MysteryShopProbabilitySet" 
+				BinFile="client\MysteryShopProbabilitySet.bin"   
+				EntryMapFile="client\MysteryShopProbabilitySet.xml"
+				IncludeSheet="D_神秘商店概率"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="S_商店刷新钻石消耗表">
+			<ResNode Name="C_商店刷新钻石消耗表"
+				Meta="ShopUseDiamondSet" 
+				BinFile="client\ShopUseDiamondSet.bin"   
+				EntryMapFile="client\ShopUseDiamondSet.xml"
+				IncludeSheet="D_商店刷新"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+			/>			
+		</CommNode>
+
+
+	
+		<CommNode Name="S_10连抽金币表">
+			<ResNode Name="C_10年抽金币表"
+				Meta="TenActivityGoldSet" 
+				BinFile="client\TenActivityGoldSet.bin"   
+				EntryMapFile="client\TenActivityGoldSet.xml"
+				IncludeSheet="D_金币十连抽"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>	
+
+		<CommNode Name="S_10连抽钻石表">
+			<ResNode Name="C_10年抽钻石表"
+				Meta="TenActivityDiamondSet" 
+				BinFile="client\TenActivityDiamondSet.bin"   
+				EntryMapFile="client\TenActivityDiamondSet.xml"
+				IncludeSheet="D_钻石十连抽"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="S_10连抽特殊表">
+			<ResNode Name="C_10年抽特殊表"
+				Meta="TenActivitySpecialSet" 
+				BinFile="client\TenActivitySpecialSet.bin"   
+				EntryMapFile="client\TenActivitySpecialSet.xml"
+				IncludeSheet="D_十连抽"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="S_10连抽价格表">
+			<ResNode Name="C_10年抽特殊表"
+				Meta="TenActivityPriceSet" 
+				BinFile="client\TenActivityPriceSet.bin"   
+				EntryMapFile="client\TenActivityPriceSet.xml"
+				IncludeSheet="D_十连抽价格表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>	
+		<CommNode Name="S_10连抽幸运马仔表">
+			<ResNode Name="C_十连抽幸运马仔"
+				Meta="TenActivityMazaiSet" 
+				BinFile="client\TenActivityMazaiSet.bin"   
+				EntryMapFile="client\TenActivityMazaiSet.xml"
+				IncludeSheet="D_十连抽幸运马仔"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>	
+
+
+		<CommNode Name="S_10幸运值配置表">
+			<ResNode Name="C_10幸运值配置表"
+				Meta="TenActivityLuckySet" 
+				BinFile="client\TenActivityLuckySet.bin"   
+				EntryMapFile="client\TenActivityLuckySet.xml"
+				IncludeSheet="D_幸运值配置表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"		
+		/>
+		</CommNode>	
+
+		<CommNode Name="S_时装表"> <!-- done-->
+			<ResNode Name="C_时装表"
+				Meta="FashionDressSet" 
+				BinFile="client\FashionDressSet.bin"   
+				EntryMapFile="client\FashionDressSet.xml"
+				IncludeSheet="D_时装表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="时装.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="S_升级达人奖励"> <!-- done-->
+			<ResNode Name="C_升级达人奖励表"
+				Meta="UpgradeActRewardSet" 
+				BinFile="client\UpgradeActRewardSet.bin"   
+				EntryMapFile="client\UpgradeActRewardSet.xml"
+				IncludeSheet="D_升级达人奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+			/>			
+		</CommNode>
+
+
+		<CommNode Name="T_TalkList" >     <!-- done-->
+			<ResNode Name="C_TalkList"
+				Meta="TalkList"
+				BinFile="client\TalkList.bin"
+				EntryMapFile="client\TalkList.xml"
+				IncludeSheet="D_对话表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="对话表.xlsm"
+			/>
+		</CommNode>
+		
+		<CommNode Name="T_特殊掉落表" >  <!-- done-->
+			<ResNode Name="C_特殊掉落表"
+				Meta="SpecialRewardSet" 
+				BinFile="client\SpecialRewardSet.bin"   
+				EntryMapFile="client\SpecialReward.xml"
+				IncludeSheet="D_特殊掉落表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="掉落表.xlsm"
+			/>
+		</CommNode>		
+
+
+		<CommNode Name="T_TIP" >      <!-- done-->
+			<ResNode Name="C_TIP"
+				Meta="TipAttribute"
+				BinFile="client\TipAttribute.bin"
+				EntryMapFile="client\TipAttribute.xml"
+				IncludeSheet="D_TIP配置"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>
+		</CommNode>
+		
+
+		<CommNode Name="U_UI表">
+			<ResNode Name="C_UI表"
+				Meta="UISet" 
+				BinFile="client\UISet.bin"   
+				EntryMapFile="client\UISet.xml"
+				IncludeSheet="D_UI配置表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+		/>
+		</CommNode>
+		
+		
+
+		<CommNode Name="V_VIP对应表"> <!-- done-->
+			<ResNode Name="C_VIP对应表"
+				Meta="VIPSet" 
+				BinFile="client\VIPSet.bin"   
+				EntryMapFile="client\VIPSet.xml"
+				IncludeSheet="D_VIP对应表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>			
+		</CommNode>
+		
+		<CommNode Name="V_VIP描述表"> <!-- done-->
+			<ResNode Name="C_VIP描述表"
+				Meta="VIPDescSet" 
+				BinFile="client\VIPDescSet.bin"   
+				EntryMapFile="client\VIPDescSet.xml"
+				IncludeSheet="D_VIP描述表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>			
+		</CommNode>
+		<CommNode Name="V_VIP重置表"> <!-- done-->
+			<ResNode Name="C_VIP重置表"
+				Meta="VIPResetSet" 
+				BinFile="client\VIPResetSet.bin"   
+				EntryMapFile="client\VIPResetSet.xml"
+				IncludeSheet="D_VIP重置表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="V_vip充值表"> <!-- done-->
+			<ResNode Name="C_vip充值表"
+				Meta="VIPRechargeSet" 
+				BinFile="client\VIPRechargeSet.bin"   
+				EntryMapFile="client\VIPRechargeSet.xml"
+				IncludeSheet="D_VIP充值表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="主角.xlsm"
+			/>			
+		</CommNode>
+
+
+		<CommNode Name="V_VIP商城表">
+			<ResNode Name="C_VIP商场表"
+				Meta="MallVipSet" 
+				BinFile="client\MallVipSet.bin"   
+				EntryMapFile="client\MallVipSet.xml"
+				IncludeSheet="D_VIP商城"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+		/>
+		</CommNode>
+
+	<CommNode Name="W_物品表" > 	<!-- done-->
+			<ResNode Name="C_物品表"
+				Meta="ItemAttrSet" 
+				BinFile="client\ItemAttrSet.bin"   
+				EntryMapFile="client\ItemAttrSet.xml"
+				IncludeSheet="D_道具表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="道具.xlsm"
+			/>
+		</CommNode>
+
+		<CommNode Name="W_我要变强" >      <!-- done-->
+			<ResNode Name="C_我要变强"
+				Meta="IwillBeStrongSet"
+				BinFile="client\IwillBeStrongUiSet.bin"
+				EntryMapFile="client\IwillBeStrongUiSet.xml"
+				IncludeSheet="D_我要变强"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>
+		</CommNode>
+
+		<CommNode Name="X_新手引导"> <!-- done-->
+			<ResNode Name="C_新手引导"
+				Meta="NewBieSet" 
+				BinFile="client\NewBieSet.bin"   
+				EntryMapFile="client\NewBieSet.xml"
+				IncludeSheet="D_新手引导"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="任务.xlsm"
+			/>			
+		</CommNode>
+
+
+		<CommNode Name="Y_颜色对应">
+			<ResNode Name="C_颜色对应"
+				Meta="ColorSet" 
+				BinFile="client\ColorSet.bin"   
+				EntryMapFile="client\ColorSet.xml"
+				IncludeSheet="D_颜色对应"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="Y_音效对应表"> <!-- done-->
+			<ResNode Name="C_音效对应表"
+				Meta="MusicResSet" 
+				BinFile="client\MusicResSet.bin"   
+				EntryMapFile="client\MusicResSet.xml"
+				IncludeSheet="D_游戏音乐"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏资源配置.xlsm"
+			/>
+		</CommNode>
+
+
+		<CommNode Name="Y_月签到表">
+			<ResNode Name="C_月签到表"
+				Meta="SignRewardSet" 
+				BinFile="client\SignRewardSet.bin"   
+				EntryMapFile="client\SignRewardSet.xml"
+				IncludeSheet="D_月签到"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+		/>
+		</CommNode>	
+
+
+		<CommNode Name="Y_远征关卡">
+			<ResNode Name="C_远征关卡"
+				Meta="AnabasisPassSet" 
+				BinFile="client\AnabasisPassSet.bin"   
+				EntryMapFile="client\AnabasisPassSet.xml"
+				IncludeSheet="D_远征关卡"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"		
+		/>
+		</CommNode>	
+
+		<CommNode Name="Y_援护次数">
+			<ResNode Name="C_援护次数"
+				Meta="HelperCountSet" 
+				BinFile="client\HelperCountSet.bin"   
+				EntryMapFile="client\HelperCountSet.xml"
+				IncludeSheet="D_好友援助价格表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"		
+		/>
+		</CommNode>	
+
+		<CommNode Name="Y_远征等级难度控制">
+			<ResNode Name="C_远征等级难度控制"
+				Meta="AnabasisDiffiSet" 
+				BinFile="client\AnabasisDiffiSet.bin"   
+				EntryMapFile="client\AnabasisDiffiSet.xml"
+				IncludeSheet="D_远征等级难度控制"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"		
+		/>
+		</CommNode>	
+		
+		
+
+		<CommNode Name="Y_远征奖励序号表">
+			<ResNode Name="C_远征奖励序号表"
+				Meta="AnabasisRewardSet" 
+				BinFile="client\AnabasisRewardSet.bin"   
+				EntryMapFile="client\AnabasisRewardSet.xml"
+				IncludeSheet="D_远征奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="副本表.xlsm"		
+		/>
+		</CommNode>	
+
+		<CommNode Name="Y_邮件模板表">
+			<ResNode Name="C_邮件模板表"
+				Meta="SendMailSet" 
+				BinFile="client\SendMailSet.bin"   
+				EntryMapFile="client\SendMailSet.xml"
+				IncludeSheet="D_邮件发送模板"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="邮件.xlsm"		
+		/>
+		</CommNode>
+		
+		<CommNode Name="Y_域名">
+			<ResNode Name="C_域名"
+				Meta="DNSSet" 
+				BinFile="client\DNSSet.bin"   
+				EntryMapFile="client\DNSSet.xml"
+				IncludeSheet="D_域名"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"		
+		/>
+		</CommNode>
+
+		<CommNode Name="Z_装备兑换商店表">
+			<ResNode Name="C_装备兑换商店表"
+				Meta="EquipExchangeSet" 
+				BinFile="client\EquipExchangeSet.bin"   
+				EntryMapFile="client\EquipExchangeSet.xml"
+				IncludeSheet="D_装备兑换商店"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+		/>
+		</CommNode>
+
+
+		<CommNode Name="Z_战斗力等级评估" >      <!-- done-->
+			<ResNode Name="C_战斗力等级评估"
+				Meta="FightNumLevel"
+				BinFile="client\FightNumLevel.bin"
+				EntryMapFile="client\FightNumLevel.xml"
+				IncludeSheet="D_战力评分"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>
+		</CommNode>
+
+
+
+
+		<CommNode Name="Z_装备表" > <!-- done-->
+			<ResNode Name="C_装备表"
+				Meta="EquipAttrSet" 
+				BinFile="client\EquipAttrSet.bin"   
+				EntryMapFile="client\EquipAttrSet.xml"
+				IncludeSheet="D_装备基础数据" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>
+		</CommNode>	
+		<CommNode Name="Z_装备强化表" > <!-- done-->
+			<ResNode Name="C_装备强化表"
+				Meta="EquipStrengthenSet" 
+				BinFile="client\EquipStrengthenSet.bin"   
+				EntryMapFile="client\EquipStrengthenSet.xml"
+				IncludeSheet="D_装备强化数据" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>
+		</CommNode>
+		<CommNode Name="Z_装备升星表" > <!-- done-->
+			<ResNode Name="C_装备升星表"
+				Meta="EquipUpgradeSet" 
+				BinFile="client\EquipUpgradeSet.bin"   
+				EntryMapFile="client\EquipUpgradeSet.xml"
+				IncludeSheet="D_装备升星数据" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>
+		</CommNode>
+		
+	<CommNode Name="Z_装备金币参考表" > <!-- done-->
+			<ResNode Name="C_装备金币参考表"
+				Meta="EquipGlodCalculateSet" 
+				BinFile="client\EquipGlodCalculateSet.bin"   
+				EntryMapFile="client\EquipGlodCalculateSet.xml"
+				IncludeSheet="D_装备金币参考表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>
+		</CommNode>
+		
+		<CommNode Name="Z_装备合成表" > <!-- done-->
+			<ResNode Name="C_装备合成表"
+				Meta="EquipComposeSet" 
+				BinFile="client\EquipComposeSet.bin"   
+				EntryMapFile="client\EquipComposeSet.xml"
+				IncludeSheet="D_合成表" 
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="道具.xlsm"
+			/>
+		</CommNode>
+
+		<CommNode Name="Z_钻石商城表">
+			<ResNode Name="C_钻石商场表"
+				Meta="MallDiamondSet" 
+				BinFile="client\MallDiamondSet.bin"   
+				EntryMapFile="client\MallDiamondSet.xml"
+				IncludeSheet="D_钻石商场"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="商店.xlsm"
+		/>
+		</CommNode>
+
+
+		<CommNode Name="Z_装备分解表">
+			<ResNode Name="C_装备分解表"
+				Meta="EquipDecomposeSet" 
+				BinFile="client\EquipDecomposeSet.bin"   
+				EntryMapFile="client\EquipDecomposeSet.xml"
+				IncludeSheet="D_装备分解表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="Z_装备升级表">
+			<ResNode Name="C_装备升级表"
+				Meta="EquipUpgradeLevelSet" 
+				BinFile="client\EquipUpgradeLevelSet.bin"   
+				EntryMapFile="client\EquipUpgradeLevelSet.xml"
+				IncludeSheet="D_装备升级表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="装备表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="Z_走马灯配置">
+			<ResNode Name="C_走马灯配置"
+				Meta="NoticeSet" 
+				BinFile="client\NoticeSet.bin"   
+				EntryMapFile="client\NoticeSet.xml"
+				IncludeSheet="D_走马灯配置"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>			
+		</CommNode>	
+		
+		<CommNode Name="Z_走马灯表">
+			<ResNode Name="C_走马灯表"
+				Meta="NoticeText" 
+				BinFile="client\NoticeTextSet.bin"   
+				EntryMapFile="client\NoticeTextSet.xml"
+				IncludeSheet="D_走马灯表"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="游戏配置表.xlsm"
+			/>			
+		</CommNode>			
+		
+		<CommNode Name="Z_脏话" >      <!-- done-->
+			<ResNode Name="C_脏话"
+				Meta="DirtyWords"
+				BinFile="client\DirtyWords.bin"
+				EntryMapFile="client\DirtyWords.xml"
+				IncludeSheet="content"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="脏话.xlsx"
+			/>
+		</CommNode>
+		
+		<CommNode Name="Z_占据关卡">
+			<ResNode Name="C_占据关卡"
+				Meta="RentRaidSet" 
+				BinFile="client\RentRaidSet.bin"   
+				EntryMapFile="client\RentRaidSet.xml"
+				IncludeSheet="D_关卡占领奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="地图.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="S_最强马仔奖励"> <!-- done-->
+			<ResNode Name="C_最强马仔奖励"
+				Meta="MachaiActRewardSet" 
+				BinFile="client\MachaiActRewardSet.bin"   
+				EntryMapFile="client\MachaiActRewardSet.xml"
+				IncludeSheet="D_最强马仔奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="S_最强霸主奖励"> <!-- done-->
+			<ResNode Name="C_最强霸主奖励"
+				Meta="FcActRewardSet" 
+				BinFile="client\FcActRewardSet.bin"   
+				EntryMapFile="client\FcActRewardSet.xml"
+				IncludeSheet="D_最强霸主奖励"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+			/>			
+		</CommNode>
+
+		<CommNode Name="后台活动_马仔升星日奖励数量">
+			<ResNode Name="C_马仔升星日奖励数量"
+				Meta="MachaiShengxingriRewardSet" 
+				BinFile="client\MachaiShengxingriRewardSet.bin"   
+				EntryMapFile="client\MachaiShengxingri.xml"
+				IncludeSheet="D_马仔升星日奖励数量"
+				BinStyles="0"
+				Sort="Asc"
+				ExcelFile="活动表.xlsm"
+			/>			
+		</CommNode>			
+		
+    </ConvTree>
+</ConvList>

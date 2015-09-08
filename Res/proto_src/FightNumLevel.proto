@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message FightNumLevel
+{
+ required int32 ID = 1;
+ required int32 Up = 2;
+ required int32 Down = 3;
+ required string Level = 4;
+}

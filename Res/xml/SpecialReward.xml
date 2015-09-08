@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_REWARD_NUM" value="15" />
+	<struct name="SpecialRewardItem" version="1">
+		<entry name="itemID" type="int" cname="奖励道具"/>
+		<entry name="itemNum" type="int" cname="奖励数量"/>
+		<entry name="itemOdds" type="int" cname="概率"/>
+	</struct>
+	
+	<struct name="SpecialRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="集合ID"/>
+		<entry name="rewardNum" type="int" cname="道具数量"/>
+		<entry name="rewardItem" type="SpecialRewardItem" count="MAX_REWARD_NUM" refer="rewardNum" cname="道具"/>
+	</struct>
+</metalib>

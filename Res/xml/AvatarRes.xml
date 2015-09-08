@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_RES_NAME_LENGTH" value="100" />
+	<macro name="MAX_ICON_NAME_LENGTH" value="20" />
+	<struct name="AvatarResSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="avatarID"/>
+		<entry name="resName" type="string" size="MAX_RES_NAME_LENGTH" cname="角色资源文件"/>
+		<entry name="colorFile" type="string" size="MAX_ICON_NAME_LENGTH" cname="颜色文件"/>
+		<entry name="iconID" type="string" size="MAX_ICON_NAME_LENGTH" cname="iconID"/>
+	</struct>
+</metalib>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="FightNumUp" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="等级"/>
+		<entry name="equipQuality" type="int" cname="装备品质评估"/>
+		<entry name="equipUpgradeStar" type="int" cname="装备升星评估"/>
+		<entry name="equipLevel" type="int" cname="装备等级评估"/>
+		<entry name="minggeNum" type="int" cname="命格装备数量"/>
+		<entry name="dragonNum" type="int" cname="龙纹开放数量"/>
+		<entry name="machaiPlayNum" type="int" cname="马仔援护数量"/>
+		<entry name="machaiTrainNum" type="int" cname="马仔培养评估"/>
+		<entry name="machaiQuality" type="int" cname="马仔品质评估"/>
+		<entry name="title" type="int" cname="称号估值"/>
+		<entry name="skill" type="int" cname="技能总等级估算"/>
+		<entry name="cdSkill" type="int" cname="技能冷却等级估算"/>
+	</struct>
+</metalib>

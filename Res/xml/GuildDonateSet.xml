@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildDonateSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="序号"/>
+		<entry name="gold" type="int" cname="捐献金币"/>
+		<entry name="diamond" type="int" cname="捐献钻石"/>	
+		<entry name="personalDonate" type="int" cname="个人贡献"/>
+		<entry name="guildDonate" type="int" cname="公会贡献"/>
+		<entry name="donateTimes" type="int" cname="捐献次数"/>
+	</struct>
+</metalib>

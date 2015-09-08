@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="HateRes" version="2" >
+	<struct name="HateSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="擒燭"/>
+		<entry name="hateValue" type="int" cname="喫管硉"/>
+	</struct>
+</metalib>

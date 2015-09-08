@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message FightRewardSet
+{
+ required int32 ID = 1;
+ required int32 levelLow = 2;
+ required int32 levelUp = 3;
+ required int32 diamond1 = 4;
+ required int32 gold1 = 5;
+ required int32 drop1 = 6;
+ required int32 diamond2 = 7;
+ required int32 gold2 = 8;
+ required int32 drop2 = 9;
+}

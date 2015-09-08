@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="MaChaiStarUpRequireSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="马仔ID"/>
+		<entry name="level" type="int" cname="马仔星级"/>
+		<entry name="soulStoneId" type="int" cname="灵魂石ID"/>
+		<entry name="tmpSoulStoneId" type="int" cname="临时碎片ID"/>
+		<entry name="soulStoneCount" type="int" cname="灵魂石个数"/>
+		<entry name="levelLimit" type="int" cname="马仔可升级上限"/>
+	</struct>
+</metalib>

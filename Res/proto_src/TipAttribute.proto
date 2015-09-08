@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message TipAttribute
+{
+ required int32 ID = 1;
+ required string desc = 2;
+ required string tip1 = 3;
+ required string tip2 = 4;
+}

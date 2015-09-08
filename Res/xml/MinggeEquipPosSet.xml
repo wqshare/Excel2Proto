@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="MinggeEquipPosSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="命格格子"/>
+		<entry name="level" type="int" cname="解锁等级"/>		
+	</struct>
+</metalib>

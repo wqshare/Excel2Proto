@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_ROBOT_NAME_LEN" value="50" />
+<macro name="MAX_SKILL_LIST_NUM" value="12" />
+<struct name="SkillGroup" version="1">
+		<entry name="skillId" type="int" cname="ID"/>
+	</struct>
+  <struct name="RobotHelperSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="序号ID"/>
+    <entry name="name" type="string" size="MAX_ROBOT_NAME_LEN" cname="名称"/>
+    <entry name="modelTimes" type="int" cname="模型倍率"/>
+    <entry name="monsterType" type="int" cname="怪物类型"/>
+    <entry name="level" type="int" cname="等级"/>
+    <entry name="avatarType" type="string" size="MAX_ROBOT_NAME_LEN" cname="avata类型"/>
+	<entry name="avatarId" type="int" cname="时装id"/>
+	<entry name="hp" type="float" cname="生命值"/>
+    <entry name="attack" type="float" cname="攻击力"/>
+	<entry name="defence" type="float" cname="防御力"/>
+	<entry name="critTimes" type="float" cname="暴击倍数"/>
+	<entry name="crit" type="float" cname="暴击"/>
+	<entry name="tough" type="int" cname="韧性"/>
+	<entry name="hit" type="float" cname="命中"/>
+	<entry name="dodge" type="float" cname="闪避"/>
+	<entry name="damageSub" type="float" cname="减伤百分比"/>
+	<entry name="damageAdd" type="float" cname="加伤百分比"/>
+	<entry name="active" type="int" cname="活跃度"/>
+	<entry name="aiName" type="string" size="MAX_ROBOT_NAME_LEN" cname="AI索引"/>
+	<entry name="talkId" type="int" cname="对话ID"/>
+	<entry name="fightCap" type="int" cname="战斗力"/>
+	<entry name="job" type="int" cname="职业"/>
+	<entry name="skillNum" type="int" cname="技能数目"/>
+	<entry name="skillList" type="SkillGroup" count="MAX_SKILL_LIST_NUM" refer="skillNum" cname="技能"/>	
+  </struct>
+</metalib>

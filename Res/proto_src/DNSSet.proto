@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message DNSSet
+{
+ required int32 ID = 1;
+ required string dns = 2;
+ required string ipAddr = 3;
+}

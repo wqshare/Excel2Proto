@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message UnlockTimeGroup
+{
+ required int32 day = 1;
+ required int32 startHour = 2;
+ required int32 startMinute = 3;
+ required int32 endHour = 4;
+ required int32 endMinute = 5;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message AttriItem
+{
+ required int32 AttriType = 1;
+ required int32 AttriValue = 2;
+}

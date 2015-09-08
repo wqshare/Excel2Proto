@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiSkillSet
+{
+ required int32 ID = 1;
+ required string name = 2;
+ required string desc = 3;
+ required int32 level = 4;
+ required float attackRatio = 5;
+ required float damageRatio = 6;
+ required string conid = 7;
+ required int32 fc = 8;
+}

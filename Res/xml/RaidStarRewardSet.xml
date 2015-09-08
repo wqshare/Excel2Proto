@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	
+	<struct name="RaidStarRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="mapType" type="int" cname="地图类型"/>
+		<entry name="sectionId" type="int" cname="章节ID"/>
+		<entry name="rewardNum" type="int" cname="奖励ID"/>
+		<entry name="gold" type="int" cname="奖励金币"/>
+		<entry name="diamond" type="int" cname="奖励钻石"/>
+		<entry name="propId" type="int" cname="道具ID"/>
+		<entry name="propNum" type="int" cname="道具数量"/>
+	</struct>
+</metalib>

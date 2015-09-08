@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message VIPResetSet
+{
+ required int32 ID = 1;
+ required int32 liemingReset = 10;
+ required int32 reliveGold = 11;
+ required int32 eliteReset = 2;
+ required int32 multiRaidReset = 3;
+ required int32 bossRaidReset = 4;
+ required int32 pvpReset = 5;
+ required int32 goldReset = 6;
+ required int32 strengthReset = 7;
+ required int32 anabasisReset = 8;
+ required int32 reliveDiamond = 9;
+}

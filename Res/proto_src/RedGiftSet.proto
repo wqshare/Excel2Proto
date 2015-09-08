@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message RedGiftSet
+{
+ required int32 ID = 1;
+ required int32 type = 2;
+ required int32 data1 = 3;
+ required int32 data2 = 4;
+ required int32 score = 5;
+ required int32 wrold_num = 6;
+ required int32 friend_num = 7;
+ required int32 guild_num = 8;
+}

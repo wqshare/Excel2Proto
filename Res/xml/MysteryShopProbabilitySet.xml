@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="MysteryShopProbabilitySet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="关卡类型"/>
+		<entry name="value" type="int" cname="出现首次概率"/>
+	</struct>
+</metalib>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_TIPS_DESC_NUM" value="150" />
+	<struct name="LoadingTipsSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="id"/>
+		<entry name="Weight" type="int" cname="显示几率权重"/>
+		<entry name="Desc" type="string" size="MAX_TIPS_DESC_NUM" cname="小贴士描述"/>
+	</struct>
+</metalib>

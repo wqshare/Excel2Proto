@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="ZhuizhaiBuyHijackSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="购买次数"/>   
+    <entry name="diamond" type="int" cname="价格"/>          
+  </struct>
+</metalib>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <macro name="MAX_VIP_RECHARGE_NAME_NUM" value="20" />
+  <struct name="VIPRechargeSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="充值商品ID"/>
+    <entry name="name" type="string" size="MAX_VIP_RECHARGE_NAME_NUM" cname="名称"/>
+    <entry name="isMore" type="int" cname="能否多次购买"/>
+	<entry name="resetTime" type="int" cname="重置时间"/>
+	<entry name="rmb" type="int" cname="RMB"/>
+	<entry name="jinDou" type="int" cname="金豆"/>
+    <entry name="diamondStatis" type="int" cname="VIP统计钻石"/>
+	<entry name="plamformType" type="int" cname="展示平台"/>
+    <entry name="diamondSpecialGive" type="int" cname="限购赠送钻石"/>
+	<entry name="diamondGive" type="int" cname="非限购赠送钻石"/>
+	<entry name="iconID" type="string" size="MAX_VIP_RECHARGE_NAME_NUM" cname="iconID"/>
+	<entry name="recommendFlag" type="int" cname="标签"/>
+	<entry name="sortId" type="int" cname="排序"/>
+  </struct>
+</metalib>

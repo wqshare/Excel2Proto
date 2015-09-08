@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="SignRewardSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="签到次数"/>
+    <entry name="RewardId" type="int" cname="普通玩家奖励"/>
+    <entry name="RewardNum" type="int" cname="普通玩家数量"/>
+    <entry name="GoldNum" type="int" cname="金币数量"/>
+    <entry name="DiamonNum" type="int" cname="钻石数量"/>
+    <entry name="Strength" type="int" cname="体力"/>
+    <entry name="VIPCondition" type="int" cname="vip条件"/>
+    <entry name="VIPTimes" type="int" cname="vip玩家奖励倍数"/>
+  </struct>
+</metalib>

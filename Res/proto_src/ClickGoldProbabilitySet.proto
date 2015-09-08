@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ClickGoldProbabilitySet
+{
+ required int32 ID = 1;
+ required float probability = 2;
+ required int32 limit = 3;
+}

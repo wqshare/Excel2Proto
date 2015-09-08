@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="EquipExchangeSet" version="1" sortkey="ID">
+  	<entry name="ID" type="int" cname="序号"/>
+	<entry name="dropId" type="int" cname="掉落ID"/>
+    <entry name="itemId" type="int" cname="出售物品ID"/>
+    <entry name="name" type="string" size="50" cname="物品名称"/>
+    <entry name="num" type="int" cname="数量"/>
+	<entry name="probability" type="int" cname="出现概率"/>
+	<entry name="materialID" type="int" cname="材料ID"/>
+	<entry name="materialNum" type="int" cname="材料数量"/>
+  </struct>
+</metalib>

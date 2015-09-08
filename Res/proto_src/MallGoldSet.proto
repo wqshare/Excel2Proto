@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+
+message MallGoldSet
+{
+ required int32 ID = 1;
+ required int32 salePirce = 10;
+ required int32 minLevel = 11;
+ required int32 maxLevel = 12;
+ required int32 vipLevel = 13;
+ required int32 dropId = 2;
+ required int32 itemId = 3;
+ required string name = 4;
+ required int32 num = 5;
+ required int32 probability = 6;
+ required int32 gold = 7;
+ required int32 diamond = 8;
+ required int32 label = 9;
+}

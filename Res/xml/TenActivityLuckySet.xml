@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_BANSHEN_NAME_NUM" value="30" />
+	<struct name="TenActivityLuckySet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="幸运值等级"/>
+		<entry name="nextId" type="int" cname="升级后的等级"/>
+		<entry name="upperLimit" type="int" cname="升级经验上限"/>
+		<entry name="lowerLimit" type="int" cname="升级经验下限"/>
+	</struct>
+</metalib>

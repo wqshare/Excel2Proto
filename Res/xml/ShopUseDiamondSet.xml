@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ShopUseDiamondSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="刷新次数"/>
+		<entry name="value" type="int" cname="需要钻石"/>
+		<entry name="areneCost" type="int" cname="需要竞技币"/>
+		<entry name="donateCost" type="int" cname="需要公会贡献"/>
+	</struct>
+</metalib>

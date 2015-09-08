@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildWorkshopSkillDescSet
+{
+ required int32 ID = 1;
+ required string name = 2;
+ required string desc = 3;
+ required string icon = 4;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_FASHIONDRESS_NAME_NUM" value="50" />
+	<macro name="MAX_SHIZHUANG_ATTR_NUM" value="10" />
+	
+	<struct name="ShiZhuangAttr" version="1">
+		<entry name="attrType" type="int" cname="类型"/>
+		<entry name="attrVal" type="int" cname="数值"/>
+	</struct>
+
+	<struct name="FashionDressSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="时装ID"/>
+		<entry name="fashionDressName" type="string" size="MAX_FASHIONDRESS_NAME_NUM" cname="时装名称"/>
+		<entry name="jobLimit" type="int" cname="职业"/>
+		<entry name="iconId" type="string" size="MAX_FASHIONDRESS_NAME_NUM" cname="Icon"/>
+		<entry name="modelId" type="int"  cname="模型ID"/>		
+		<entry name="conditionType" type="int" cname="获取条件类型"/>
+		<entry name="conditionValue" type="int" cname="获取条件参数"/>
+		<entry name="attrNum" type="int" cname="属性数目"/>
+		<entry name="attr" type="ShiZhuangAttr" count="MAX_SHIZHUANG_ATTR_NUM"  refer="attrNum" cname="属性"/>
+	</struct>
+</metalib>

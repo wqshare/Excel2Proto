@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <macro name="MAX_BUFF_ICON_NAME_LENGTH" value="32" />
+  <struct name="BuffIconSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="BUFF ID"/>
+    <entry name="icon" type="string" size="MAX_BUFF_ICON_NAME_LENGTH" cname="BUFF icon"/>
+  </struct>
+</metalib>

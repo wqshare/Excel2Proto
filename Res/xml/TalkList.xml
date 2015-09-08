@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_TALK_CONTENT_LENGTH" value="120" />
+	<struct name="TalkList" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="对话ID"/>
+		<entry name="talk01" type="string" size="MAX_TALK_CONTENT_LENGTH" cname="对话1"/>
+		<entry name="probability01" type="int" cname="对话权重1"/>
+		<entry name="talk02" type="string" size="MAX_TALK_CONTENT_LENGTH" cname="对话2"/>
+		<entry name="probability02" type="int" cname="对话权重2"/>
+		<entry name="talk03" type="string" size="MAX_TALK_CONTENT_LENGTH" cname="对话3"/>
+		<entry name="probability03" type="int" cname="对话权重3"/>
+	</struct>
+</metalib>

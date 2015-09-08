@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message TenActivityPriceSet
+{
+ required int32 ID = 1;
+ required int32 type = 2;
+ required int32 pirce = 3;
+}

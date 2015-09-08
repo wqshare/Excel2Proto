@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="LevelGiftConfigSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="时间"/>
+	<entry name="Min" type="int" cname="最小值"/>
+	<entry name="Max" type="int" cname="最大值"/>
+    <entry name="SlowDown" type="float" cname="递减速度"/>
+    <entry name="MinusValus" type="int" cname="差值"/>
+  </struct>
+</metalib>

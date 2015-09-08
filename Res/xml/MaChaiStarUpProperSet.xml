@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="MaChaiStarUpProperSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="马仔ID"/>
+		<entry name="hpGrow" type="float" cname="生命成长"/>
+		<entry name="attackGrow" type="float" cname="攻击成长"/>
+		<entry name="defenceGrow" type="float" cname="防御成长"/>
+		<entry name="hp" type="int" cname="生命增加"/>
+		<entry name="attack" type="int" cname="攻击增加"/>
+		<entry name="defence" type="int" cname="防御增加"/>
+	</struct>
+</metalib>

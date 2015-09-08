@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_WING_NAME_NUM" value="50" />
+	<macro name="MAX_MING_MODEL_NUM" value="4" />
+	<macro name="MAX_MING_ATTR_NUM" value="10" />
+
+	<struct name="WingAttr" version="1">
+		<entry name="attrType" type="int" cname="类型"/>
+		<entry name="attrVal" type="int" cname="数值"/>
+	</struct>
+
+	<struct name="WingSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="翅膀ID"/>
+		<entry name="wingName" type="string" size="MAX_WING_NAME_NUM" cname="翅膀名称"/>
+		<entry name="level" type="int" cname="翅膀等级"/>
+		<entry name="wingExp" type="int" cname="升级经验"/>
+		<entry name="maxLv" type="int" cname="升级上限"/>
+		<entry name="iconId" type="string" size="MAX_WING_NAME_NUM" cname="Iconid"/>
+		<entry name="conditions" type="int" cname="获取条件类型"/>
+		<entry name="params" type="int" cname="获取参数" />
+		<entry name="attrNum" type="int" cname="属性数" />
+		<entry name="attr" type="WingAttr" count="MAX_MING_ATTR_NUM"  refer="attrNum" cname="属性" />
+	</struct>
+</metalib>

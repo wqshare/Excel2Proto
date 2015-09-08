@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message UnLockCond
+{
+ required int32 unlockIf = 1;
+ required int32 unlockParam = 2;
+}

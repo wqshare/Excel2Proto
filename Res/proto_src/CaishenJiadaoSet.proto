@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message CaishenJiadaoSet
+{
+ required int32 ID = 1;
+ required int32 getDiamondMin = 10;
+ required int32 getDiamondMax = 11;
+ required int32 startYear = 2;
+ required int32 startMonth = 3;
+ required int32 startDay = 4;
+ required int32 endYear = 5;
+ required int32 endMonth = 6;
+ required int32 endDay = 7;
+ required string content = 8;
+ required int32 price = 9;
+}

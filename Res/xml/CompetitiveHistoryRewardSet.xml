@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="CompetitiveHistoryRewardSet" version="2" >
+  <struct name="CompetitiveHistoryRewardSet" version="1" sortkey="ID">
+	<entry name="ID" type="int" cname="挑战者名次上限"/>
+	<entry name="idLimit" type="int" cname="挑战者名次下限"/>
+	<entry name="gold" type="float" cname="挑战成功获的金币"/>
+	<entry name="diamond" type="float" cname="挑战成功获得钻石"/>
+	<entry name="competitiveGold" type="float" cname="挑战成功获得竞技币"/>
+	<entry name="itemId" type="int" cname="挑战成功获得物品"/>
+  </struct>
+</metalib>

@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+
+message RaidStarRewardSet
+{
+ required int32 ID = 1;
+ required int32 mapType = 2;
+ required int32 sectionId = 3;
+ required int32 rewardNum = 4;
+ required int32 gold = 5;
+ required int32 diamond = 6;
+ required int32 propId = 7;
+ required int32 propNum = 8;
+}

@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildDonateSet
+{
+ required int32 ID = 1;
+ required int32 gold = 2;
+ required int32 diamond = 3;
+ required int32 personalDonate = 4;
+ required int32 guildDonate = 5;
+ required int32 donateTimes = 6;
+}

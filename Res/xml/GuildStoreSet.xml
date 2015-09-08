@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildStoreSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="序号"/>
+		<entry name="DropID" type="int" cname="掉落ID"/>	
+		<entry name="ItemID" type="int" cname="物品ID"/>
+		<entry name="InitialCount" type="int" cname="数量"/>
+		<entry name="ArisesProbability" type="int" cname="出现概率"/>
+		<entry name="DonateCost" type="int" cname="公会贡献"/>
+	</struct>
+</metalib>

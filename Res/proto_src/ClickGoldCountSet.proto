@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ClickGoldCountSet
+{
+ required int32 ID = 1;
+ required int32 goldMulti = 2;
+ required int32 diamondMulti = 3;
+}

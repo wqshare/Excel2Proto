@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="NewBieSet" version="2" >
+
+  <macro name="MAX_AI_NAME_NUM" value="32" />
+  <struct name="NewBieSet" version="1" sortkey="ID">
+	<entry name="ID" type="int" cname="引导ID"/>
+	<entry name="level" type="int" cname="触发最低等级"/>	
+	<entry name="preID" type="int" cname="前置ID"/>
+	<entry name="unlockType" type="int" cname="解锁类型"/>
+	<entry name="unlockParam" type="int" cname="解锁参数"/>
+	<entry name="aiName" type="string" size="MAX_AI_NAME_NUM" cname="AI名字"/>	
+  </struct>
+</metalib>

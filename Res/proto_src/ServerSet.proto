@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message ServerSet
+{
+ required int32 ID = 1;
+ required string ServerName = 2;
+ required string District = 3;
+ required int32 Status = 4;
+ required string IPAddr = 5;
+ required int32 Port = 6;
+ required int32 GmPort = 7;
+}

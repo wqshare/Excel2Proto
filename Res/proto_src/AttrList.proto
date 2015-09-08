@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message AttrList
+{
+ required int32 attrID = 1;
+ required int32 attrNum = 2;
+}

@@ -1,0 +1,40 @@
+option optimize_for = LITE_RUNTIME;
+
+message VIPSet
+{
+ required int32 ID = 1;
+ required int32 activityResetNum = 10;
+ required int32 teamResetNum = 11;
+ required int32 bossResetNum = 12;
+ required int32 towerResetNum = 13;
+ required int32 arenaResetNum = 14;
+ required int32 reliveNum = 15;
+ required int32 anabasisResetNum = 16;
+ required float anabasisRewardFactor = 17;
+ required int32 goldenTouchNum = 18;
+ required int32 handMidasMulti = 19;
+ required int32 vipExp = 2;
+ required int32 powerNum = 20;
+ required int32 strengthen = 21;
+ required int32 sweepOneTime = 22;
+ required int32 sweepTenTimes = 23;
+ required int32 actSweepOneTime = 24;
+ required int32 actSweepTenTimes = 25;
+ required int32 vipShop = 26;
+ required int32 lieming = 27;
+ required int32 sell = 28;
+ required int32 pickup = 29;
+ required int32 vipYuanJia = 3;
+ required int32 lieMingID = 30;
+ required int32 zhuizhaiBuyCount = 31;
+ required int32 dropID = 32;
+ required int32 giftid = 33;
+ required int32 maxFriend = 34;
+ required int32 userPowerProp = 35;
+ required int32 vipGiftPrice = 4;
+ required float expAddition = 5;
+ required float goldAddition = 6;
+ required float activityCD = 7;
+ required float arenaCD = 8;
+ required int32 eliteNum = 9;
+}

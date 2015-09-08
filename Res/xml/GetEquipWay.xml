@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_EQUIPMAP_NAME_LENGTH" value="40" />
+	<macro name="MAX_GETEQUIPWAY_NUM" value="16" />
+	<struct name="EquipWay" version="1">
+		<entry name="ID" type="int" cname="ID"/>
+	</struct>
+
+	<struct name="GetEquipWay" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="道具ID"/>
+		<entry name="getWayDecid" type="int" cname="特殊获取途径"/>
+		<entry name="name" type="string" size="MAX_EQUIPMAP_NAME_LENGTH" cname="道具名称"/>
+		<entry name="WayNum" type="int" cname="来源组数"/>
+		<entry name="WayS" type="EquipWay" count="MAX_GETEQUIPWAY_NUM" refer="WayNum" cname="副本"/>
+	</struct>
+</metalib>

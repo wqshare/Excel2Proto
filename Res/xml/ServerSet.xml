@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_STRING_LENGTH" value="100" />
+  <struct name="ServerSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>
+    <entry name="ServerName" type="string" size="MAX_STRING_LENGTH" cname="服务器名称"/>
+    <entry name="District" type="string" size="MAX_STRING_LENGTH" cname="区域"/>
+    <entry name="Status" type="int" cname="状态"/>
+    <entry name="IPAddr" type="string" size="MAX_STRING_LENGTH" cname="IP地址"/>
+    <entry name="Port" type="int" cname="客户端端口"/>
+	<entry name="GmPort" type="int" cname="GM服务端口"/>
+  </struct>
+</metalib>

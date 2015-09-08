@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="TenActivityDiamondSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="dropId" type="int" cname="掉落ID"/>
+		<entry name="itemId" type="int" cname="物品ID"/>
+		<entry name="num" type="int" cname="数量"/>
+		<entry name="probability" type="int" cname="概率"/>
+		<entry name="minLevel" type="int" cname="等级下限"/>
+		<entry name="maxLevel" type="int" cname="等级上限"/>
+		<entry name="vipLevel" type="int" cname="VIP等级"/>
+		<entry name="show" type="int" cname="预览显示"/>
+		<entry name="must" type="int" cname="保底"/>
+		<entry name="type" type="int" cname="类型"/>
+		<entry name="only" type="int" cname="唯一"/>
+	</struct>
+</metalib>

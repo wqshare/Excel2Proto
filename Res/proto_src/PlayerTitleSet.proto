@@ -1,0 +1,13 @@
+option optimize_for = LITE_RUNTIME;
+import "TitleAttr.proto";
+message PlayerTitleSet
+{
+ required int32 ID = 1;
+ required int32 ActivateID = 2;
+ required string name = 3;
+ required string iconId = 4;
+ required string desc = 5;
+ required string conditions = 6;
+ required int32 attrNum = 7;
+ repeated TitleAttr attrData = 8;
+}

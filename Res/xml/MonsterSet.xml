@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MONSTER_NAME_LENGTH" value="100" />
+	<macro name="MAX_MONSTER_AI_LENGTH" value="20" />
+	<macro name="MONSTER_TYPE_NORMAL" value="1" desc="小怪"/>
+	<macro name="MONSTER_TYPE_ELITE" value="2" desc="小boss"/>
+	<macro name="MONSTER_TYPE_BOSS" value="3" desc="BOSS"/>
+	<macro name="MONSTER_TYPE_WORLD_BOSS" value="4" desc="世界boss"/>
+	<macro name="MONSTER_TYPE_FIGHT_NPC" value="5" desc="我方战斗npc"/>
+	<macro name="MONSTER_TYPE_PEACE_NPC" value="6" desc="我方非战斗npc"/>
+  <struct name="MonsterSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID" desc="怪物ID"/>
+    <entry name="monsterName" type="string" size="MAX_MONSTER_NAME_LENGTH" cname="怪物名称" desc="怪物名称"/>
+	<entry name="avatarId" type="int" cname="avatarID" desc="资源索引ID"/>
+	<entry name="hp" type="int" cname="生命值" desc="生命值"/>
+	<entry name="attack" type="int" cname="攻击力" desc="攻击力"/>
+	<entry name="defence" type="int" cname="防御力" desc="防御力"/>
+	<entry name="crit" type="int" cname="暴击" desc="暴击"/>
+	<entry name="tough" type="int" cname="韧性" desc="韧性"/>
+	<entry name="hit" type="int" cname="命中" desc="命中"/>
+	<entry name="dodge" type="int" cname="闪避" desc="闪避"/>
+	<entry name="level" type="int" cname="等级" desc="等级"/>
+	<entry name="isBigMode" type="float" cname="模型倍率" desc="是否是大模型"/>
+	<entry name="damageSub" type="int" cname="减伤百分比" desc="减少伤害"/>
+	<entry name="damageAdd" type="int" cname="加伤百分比" desc="伤害加成"/>
+	<entry name="active"	type="int" cname="活跃度" desc="活跃度"/>
+	<entry name="aiName" type="string" size="MAX_MONSTER_AI_LENGTH" cname="AI索引" desc="AI索引"/>
+	<entry name="banShenXiang" type="string" size="MAX_MONSTER_NAME_LENGTH" cname="策划用半身像资源ID" desc="策划用半身像资源ID"/>
+	<entry name="type" type="int" cname="怪物类型" desc="怪物类型"/>
+	<entry name="talkId" type="int" cname="对话ID" desc="怪物自动说话" />
+  </struct>
+</metalib>

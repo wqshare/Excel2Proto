@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message ConstantAttr
+{
+ required float attrID = 1;
+}

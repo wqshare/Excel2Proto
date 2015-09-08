@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <macro name="MAX_NPC_STRING_LENGTH" value="100" />
+  <struct name="NPCSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="NPCID"/>
+    <entry name="Name" type="string" size="MAX_NPC_STRING_LENGTH" cname="名称"/>
+    <entry name="City" type="int" cname="主城"/>
+    <entry name="NPCFunction" type="int" cname="功能"/>
+    <entry name="SerialNum" type="int" cname="序号"/>
+    <entry name="HeadIconSize" type="int" cname="头像大小"/>
+    <entry name="posX" type="int" cname="坐标X"/>
+    <entry name="posY" type="int" cname="坐标Y"/>
+    <entry name="avataId" type="int" cname="avataId"/>
+    <entry name="ResourcePath" type="string" size="MAX_NPC_STRING_LENGTH" cname="半身像资源ID"/>
+  </struct>
+</metalib>

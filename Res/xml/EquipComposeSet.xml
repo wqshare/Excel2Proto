@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_EQUIP_COMPOSE_NAME_LENGTH" value="40" />
+	<macro name="MAX_COPOSEITEM_NUM" value="3" />
+	<struct name="ComposeItem" version="1">
+		<entry name="itemID" type="int" cname="ID"/>
+		<entry name="itemNum" type="int" cname="数量"/>
+	</struct>
+
+	<struct name="EquipComposeSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="合成ID"/>
+		<entry name="diamond" type="int" cname="钻石消耗"/>
+		<entry name="gold" type="int" cname="金币消耗"/>
+		<entry name="name" type="string" size="MAX_EQUIP_COMPOSE_NAME_LENGTH" cname="合成名字"/>
+		<entry name="dst_id" type="int" cname="合成产物ID"/>
+		<entry name="composeNum" type="int" cname="合成组数"/>
+		<entry name="materialItems" type="ComposeItem" count="MAX_COPOSEITEM_NUM" refer="composeNum" cname="合成材料"/>
+	</struct>
+</metalib>

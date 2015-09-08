@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="RedGiftSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="红包ID"/>
+    <entry name="type" type="int" cname="类型"/>
+    <entry name="data1" type="int" cname="数值1"/>
+    <entry name="data2" type="int" cname="数值2"/>
+	<entry name="score" type="int" cname="积分"/>
+	<entry name="wrold_num" type="int" cname="世界红包"/>
+    <entry name="friend_num" type="int" cname="好友红包"/>
+	<entry name="guild_num" type="int" cname="公会红包"/>
+  </struct>
+</metalib>

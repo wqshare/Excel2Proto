@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_EQUIP_NAME_LENGTH" value="100" />
+	<macro name="MAX_EQUIP_DESC_LENGTH" value="100" />
+	<macro name="MAX_EQUIP_ATTR_NUMBER" value="10" />
+	<macro name="MAX_EQUIP_ICON_LEN" value="32" />
+	
+	<struct name="EquipAttr" version="1">
+		<entry name="attrID" type="int" cname="类型"/>
+		<entry name="attrNum" type="int" cname="数值"/>
+	</struct>
+	
+	
+	
+	<struct name="EquipAttrSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="装备ID"/>
+		<entry name="name" type="string" size="MAX_EQUIP_NAME_LENGTH" cname="装备名称"/>
+		<entry name="jobLimit" type="int" cname="职业限制"/>
+		<entry name="equipPos" type="int" cname="装备部位"/>
+		<entry name="levelLimit" type="int" cname="等级限制"/>
+		<entry name="strengthenLimit" type="int" cname="强化上限"/>
+		<entry name="equipColor" type="int" cname="装备颜色"/>
+		<entry name="upGradeID" type="int" cname="升星ID"/>
+		<entry name="strongID" type="int" cname="强化ID"/>
+		<entry name="combineID" type="int" cname="合成ID"/>
+		<entry name="upgradeLvID" type="int" cname="升级ID"/>
+		<entry name="canSell" type="int" cname="是否可出售"/>
+		<entry name="sellPrice" type="int" cname="出售价格"/>
+		<entry name="timeLimit" type="int" cname="时效"/>
+		
+		<entry name="attrNum" type="int" cname="属性数目"/>
+		<entry name="attrData" type="EquipAttr" count="MAX_EQUIP_ATTR_NUMBER" refer="attrNum" cname="属性"/>
+		
+		<entry name="desc" type="string" size="MAX_EQUIP_DESC_LENGTH" cname="装备描述"/>
+		<entry name="iconID" type="string" size="MAX_EQUIP_ICON_LEN" cname="ICONid"/>
+	</struct>
+</metalib>

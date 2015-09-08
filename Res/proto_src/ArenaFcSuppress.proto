@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message ArenaFcSuppress
+{
+ required int32 ID = 1;
+ required int32 limitId = 2;
+ required float val = 3;
+}

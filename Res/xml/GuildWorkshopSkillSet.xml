@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildWorkshopSkillSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="工坊技能ID"/>
+		<entry name="level" type="int" cname="技能等级"/>	
+		<entry name="descID" type="int" cname="技能描述ID"/>
+		<entry name="SkillId" type="int" cname="技能1类型"/>
+		<entry name="SkillValue" type="int" cname="技能1数值"/>
+		<entry name="Diamond" type="int" cname="消耗钻石"/>
+	</struct>
+</metalib>

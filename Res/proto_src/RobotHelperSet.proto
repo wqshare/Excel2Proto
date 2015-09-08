@@ -1,0 +1,29 @@
+option optimize_for = LITE_RUNTIME;
+import "SkillGroup.proto";
+message RobotHelperSet
+{
+ required int32 ID = 1;
+ required float defence = 10;
+ required float critTimes = 11;
+ required float crit = 12;
+ required int32 tough = 13;
+ required float hit = 14;
+ required float dodge = 15;
+ required float damageSub = 16;
+ required float damageAdd = 17;
+ required int32 active = 18;
+ required string aiName = 19;
+ required string name = 2;
+ required int32 talkId = 20;
+ required int32 fightCap = 21;
+ required int32 job = 22;
+ required int32 skillNum = 23;
+ repeated SkillGroup skillList = 24;
+ required int32 modelTimes = 3;
+ required int32 monsterType = 4;
+ required int32 level = 5;
+ required string avatarType = 6;
+ required int32 avatarId = 7;
+ required float hp = 8;
+ required float attack = 9;
+}

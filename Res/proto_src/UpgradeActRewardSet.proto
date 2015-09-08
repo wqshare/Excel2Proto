@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "UpgradeActRewardItem.proto";
+message UpgradeActRewardSet
+{
+ required int32 ID = 1;
+ required int32 limitLow = 2;
+ required int32 num = 3;
+ repeated UpgradeActRewardItem itemData = 4;
+}

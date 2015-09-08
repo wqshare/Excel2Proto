@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+
+message VIPRechargeSet
+{
+ required int32 ID = 1;
+ required int32 diamondGive = 10;
+ required string iconID = 11;
+ required int32 recommendFlag = 12;
+ required int32 sortId = 13;
+ required string name = 2;
+ required int32 isMore = 3;
+ required int32 resetTime = 4;
+ required int32 rmb = 5;
+ required int32 jinDou = 6;
+ required int32 diamondStatis = 7;
+ required int32 plamformType = 8;
+ required int32 diamondSpecialGive = 9;
+}

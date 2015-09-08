@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+
+message FightNumUp
+{
+ required int32 ID = 1;
+ required int32 title = 10;
+ required int32 skill = 11;
+ required int32 cdSkill = 12;
+ required int32 equipQuality = 2;
+ required int32 equipUpgradeStar = 3;
+ required int32 equipLevel = 4;
+ required int32 minggeNum = 5;
+ required int32 dragonNum = 6;
+ required int32 machaiPlayNum = 7;
+ required int32 machaiTrainNum = 8;
+ required int32 machaiQuality = 9;
+}

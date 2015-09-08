@@ -1,0 +1,15 @@
+option optimize_for = LITE_RUNTIME;
+
+message RaidRewardSet
+{
+ required int32 ID = 1;
+ required int32 commonRewardID = 10;
+ required string rewardDesc = 2;
+ required int32 minGold = 3;
+ required int32 maxGold = 4;
+ required int32 exp = 5;
+ required int32 dragonSoul = 6;
+ required int32 liemingGold = 7;
+ required int32 specialRewardID = 8;
+ required int32 maxCommonRewardNum = 9;
+}

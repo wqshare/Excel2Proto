@@ -1,0 +1,21 @@
+option optimize_for = LITE_RUNTIME;
+import "AttriItem.proto";
+message MinggeSet
+{
+ required int32 ID = 1;
+ required int32 upgradeLevelExp = 10;
+ required int32 devourExp = 11;
+ required int32 upgradeExp = 12;
+ required int32 upgradeID = 13;
+ required string iconId = 14;
+ required int32 attriNum = 15;
+ repeated AttriItem attri = 16;
+ required string name = 2;
+ required int32 equipType = 3;
+ required int32 level = 4;
+ required int32 quality = 5;
+ required int32 usedLevel = 6;
+ required string desc = 7;
+ required int32 prof = 8;
+ required int32 type = 9;
+}

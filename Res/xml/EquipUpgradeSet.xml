@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="EquipUpgradeSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="升星ID"/>
+		<entry name="materialID" type="int" cname="每级升星经验"/>	
+		<entry name="goldNeed" type="int" cname="每级金币消耗"/>		
+		<entry name="partMaterialId" type="int" cname="部位材料ID"/>
+		<entry name="partMaterialNum" type="int" cname="部位材料消耗"/>
+		<entry name="Hp" type="float" cname="生命"/>
+		<entry name="Attack" type="float" cname="攻击"/>
+		<entry name="Defence" type="float" cname="防御"/>	
+		<entry name="DamageReduce" type="float" cname="减伤百分比"/>		
+		<entry name="Accurate" type="float" cname="命中值"/>
+		<entry name="Dodge" type="float" cname="闪避值"/>
+		<entry name="Crit" type="float" cname="暴击值"/>
+		<entry name="Toug" type="float" cname="韧性值"/>
+		<entry name="DamageAdd" type="float" cname="伤害百分比"/>
+
+	</struct>
+</metalib>

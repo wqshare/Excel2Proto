@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="BossDifficultySet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="BOSS类型"/>
+    <entry name="factor" type="float" cname="BOSS系数"/>
+  </struct>
+</metalib>

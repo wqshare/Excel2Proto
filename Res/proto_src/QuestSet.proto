@@ -1,0 +1,28 @@
+option optimize_for = LITE_RUNTIME;
+
+message QuestSet
+{
+ required int32 ID = 1;
+ required int32 data2 = 10;
+ required int32 data3 = 11;
+ required string desc = 12;
+ required string taskDest = 13;
+ required string recvDialogue = 14;
+ required string playerRecvDialogue = 15;
+ required string playerCompleteDialogue = 16;
+ required string completeDialogue = 17;
+ required int32 exp = 18;
+ required int32 gold = 19;
+ required string name = 2;
+ required int32 diamond = 20;
+ required int32 liemingGold = 21;
+ required int32 dragonSoul = 22;
+ required int32 dropId = 23;
+ required int32 flag = 3;
+ required int32 type = 4;
+ required int32 recvLevel = 5;
+ required int32 recvNPC = 6;
+ required int32 complateNPC = 7;
+ required int32 prevId = 8;
+ required int32 data1 = 9;
+}

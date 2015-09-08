@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildWorkshopSkillSet
+{
+ required int32 ID = 1;
+ required int32 level = 2;
+ required int32 descID = 3;
+ required int32 SkillId = 4;
+ required int32 SkillValue = 5;
+ required int32 Diamond = 6;
+}

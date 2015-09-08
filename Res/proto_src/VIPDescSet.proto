@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message VIPDescSet
+{
+ required int32 ID = 1;
+ required int32 descNum = 2;
+ repeated string descItem = 3;
+}

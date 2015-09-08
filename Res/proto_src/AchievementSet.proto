@@ -1,0 +1,21 @@
+option optimize_for = LITE_RUNTIME;
+
+message AchievementSet
+{
+ required int32 ID = 1;
+ required string desc = 10;
+ required int32 gold = 11;
+ required int32 diamond = 12;
+ required int32 dorpid = 13;
+ required int32 dragonSoul = 14;
+ required int32 liemingGold = 15;
+ required int32 arenaGold = 16;
+ required int32 Conditions = 2;
+ required string name = 3;
+ required int32 level = 4;
+ required int32 Job = 5;
+ required int32 type = 6;
+ required int32 val1 = 7;
+ required int32 val2 = 8;
+ required int32 sortId = 9;
+}

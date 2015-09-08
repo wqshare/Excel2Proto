@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiExpSet
+{
+ required int32 ID = 1;
+ required int32 q1Exp = 2;
+ required int32 q2Exp = 3;
+ required int32 q3Exp = 4;
+ required int32 q4Exp = 5;
+ required int32 tq1Exp = 6;
+ required int32 tq2Exp = 7;
+ required int32 tq3Exp = 8;
+ required int32 tq4Exp = 9;
+}

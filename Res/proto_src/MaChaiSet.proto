@@ -1,0 +1,31 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiSet
+{
+ required int32 ID = 1;
+ required int32 skill2 = 10;
+ required int32 propId = 11;
+ required int32 propCount = 12;
+ required float scale = 13;
+ required int32 hp = 14;
+ required int32 attack = 15;
+ required int32 defence = 16;
+ required int32 dodge = 17;
+ required int32 hit = 18;
+ required int32 crit = 19;
+ required string name = 2;
+ required int32 critAttack = 20;
+ required int32 tough = 21;
+ required int32 damageReduce = 22;
+ required int32 damageAdd = 23;
+ required string ai = 24;
+ required int32 additionalFc = 25;
+ required int32 isShow = 26;
+ required int32 level = 3;
+ required int32 star = 4;
+ required int32 quality = 5;
+ required int32 trainLevel = 6;
+ required int32 avatarID = 7;
+ required string desc = 8;
+ required int32 skill1 = 9;
+}

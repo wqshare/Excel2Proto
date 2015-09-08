@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="LevelRewardSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>    
+    <entry name="level" type="int" cname="等级条件"/>
+	<entry name="Conditions" type="int" cname="前置条件"/>
+    <entry name="desc" type="string" size="100" cname="描述"/>
+    <entry name="dropId" type="int" cname="掉落ID"/>
+	<entry name="diamond" type="int" cname="钻石"/>
+    <entry name="gold" type="int" cname="金币"/>    
+	<entry name="dragonSoul" type="int" cname="龙魂币"/>
+	<entry name="liemingGold" type="int" cname="命运石"/>
+	<entry name="arenaGold" type="int" cname="竞技币"/>
+  </struct>
+</metalib>

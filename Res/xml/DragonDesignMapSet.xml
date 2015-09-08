@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_DRAGONMAP_NAME_NUM" value="100" />
+	<macro name="MAX_DRAGONMAP_ATTR_NUM" value="3" />
+	
+	<struct name="DragonMapAttr" version="1">
+		<entry name="attrType" type="int" cname="类型"/>
+		<entry name="attrVal" type="int" cname="数值"/>
+	</struct>
+	
+	<struct name="DragonDesignMapSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="龙纹图ID"/>
+		<entry name="mapName" type="string" size="MAX_DRAGONMAP_NAME_NUM" cname="龙纹图名称"/>
+		<entry name="attrNum" type="int" cname="数组数"/>
+		<entry name="attr" type="DragonMapAttr" count="MAX_DRAGONMAP_ATTR_NUM"  refer="attrNum" cname="属性"/>
+	</struct>
+</metalib>

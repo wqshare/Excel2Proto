@@ -1,0 +1,16 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiBuffSet
+{
+ required int32 ID = 1;
+ required float tempLast = 10;
+ required int32 fc = 11;
+ required string name = 2;
+ required int32 level = 3;
+ required string desc = 4;
+ required string conid = 5;
+ required int32 forEverID = 6;
+ required int32 forEvervalue = 7;
+ required int32 tempID = 8;
+ required float tempvalue = 9;
+}

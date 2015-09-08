@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MINGGE_NAME_LENGTH" value="100" />
+	<macro name="MAX_MINGGE_DESC_LENGTH" value="256" />
+	<macro name="MAX_MINGGE_ATTRI_NUM" value="3" />
+
+	<struct name="AttriItem" version="1">
+		<entry name="AttriType" type="int" cname="类型"/>
+		<entry name="AttriValue" type="int" cname="值"/>
+	</struct>
+	
+	<struct name="MinggeSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="命格ID"/>
+		<entry name="name" type="string" size="MAX_MINGGE_NAME_LENGTH" cname="命格名称"/>
+		<entry name="equipType" type="int" cname="装备类型"/>
+		<entry name="level" type="int" cname="等级"/>
+		<entry name="quality" type="int" cname="品质"/>
+		<entry name="usedLevel" type="int" cname="使用等级"/>
+		<entry name="desc" type="string" size="MAX_MINGGE_DESC_LENGTH"  cname="命格描述"/>
+		<entry name="prof" type="int" cname="职业限定"/>
+		<entry name="type" type="int" cname="命格类型"/>
+		<entry name="upgradeLevelExp" type="int" cname="升级经验"/>
+		<entry name="devourExp" type="int" cname="提供经验"/>
+		<entry name="upgradeExp" type="int" cname="升阶经验"/>
+		<entry name="upgradeID" type="int" cname="升阶ID"/>
+		<entry name="iconId" type="string" size="MAX_MINGGE_NAME_LENGTH" cname="ICONID"/>
+		<entry name="attriNum" type="int" cname="属性数量"/>
+		<entry name="attri" type="AttriItem" count="MAX_MINGGE_ATTRI_NUM" refer="attriNum" cname="属性" />	
+	</struct>
+</metalib>

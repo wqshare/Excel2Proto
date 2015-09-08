@@ -1,0 +1,6 @@
+option optimize_for = LITE_RUNTIME;
+
+message PassInfo
+{
+ required int32 id = 1;
+}

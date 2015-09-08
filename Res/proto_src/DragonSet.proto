@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+import "DragonAttr.proto";
+message DragonSet
+{
+ required int32 ID = 1;
+ required int32 minTimes = 10;
+ required int32 maxTimes = 11;
+ required int32 attrNum = 12;
+ repeated DragonAttr attr = 13;
+ required string pointName = 2;
+ required int32 prev = 3;
+ required int32 level = 4;
+ required int32 type = 5;
+ required int32 iconid = 6;
+ required int32 openLv = 7;
+ required int32 glod = 8;
+ required int32 successOdds = 9;
+}

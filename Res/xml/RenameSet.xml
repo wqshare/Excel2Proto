@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="RenameSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="人物等级下限"/>  
+    <entry name="limitLv" type="int" cname="人物等级"/>
+    <entry name="diamond" type="int" cname="消耗钻石"/>
+  </struct>
+</metalib>

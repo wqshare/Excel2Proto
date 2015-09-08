@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+import "PropGiftAttr.proto";
+message DanbichongzhiSet
+{
+ required int32 ID = 1;
+ required int32 quota1 = 10;
+ required int32 quota2 = 11;
+ required int32 dropId = 12;
+ required int32 attrNum = 13;
+ repeated PropGiftAttr prop = 14;
+ required int32 startYear = 2;
+ required int32 startMonth = 3;
+ required int32 startDay = 4;
+ required int32 endYear = 5;
+ required int32 endMonth = 6;
+ required int32 endDay = 7;
+ required string content = 8;
+ required string desc = 9;
+}

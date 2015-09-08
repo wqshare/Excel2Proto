@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="AnabasisDiffiSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="level" type="int" cname="等级"/>
+		<entry name="pveType" type="int" cname="关卡类型"/>
+		<entry name="hpScale" type="float"  cname="生命系数"/>
+		<entry name="attackScale" type="float"  cname="攻击系数"/>
+		<entry name="defenceScale" type="float"  cname="防御系数"/>	
+	</struct>
+</metalib>

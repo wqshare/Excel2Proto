@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ArenaFcSuppress" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="战斗力下限"/>
+		<entry name="limitId" type="int" cname="战斗力上限"/>
+		<entry name="val" type="float" cname="攻防增益"/>
+	</struct>
+</metalib>

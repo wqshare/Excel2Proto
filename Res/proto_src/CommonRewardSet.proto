@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+import "RewardItem.proto";
+message CommonRewardSet
+{
+ required int32 ID = 1;
+ required int32 jobChose = 2;
+ required int32 rewardNum = 3;
+ required int32 showNum = 4;
+ required int32 upperLimit = 5;
+ repeated RewardItem rewardItem = 6;
+}

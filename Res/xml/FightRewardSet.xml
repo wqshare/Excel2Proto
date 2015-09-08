@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="FightRewardSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>
+    <entry name="levelLow" type="int" cname="等级下限"/>
+	<entry name="levelUp" type="int" cname="等级上限"/>
+	<entry name="diamond1" type="int" cname="钻石1"/>
+	<entry name="gold1" type="int" cname="金币1"/>
+	<entry name="drop1" type="int" cname="掉落1"/>
+	<entry name="diamond2" type="int" cname="钻石2"/>
+	<entry name="gold2" type="int" cname="金币2"/>
+	<entry name="drop2" type="int" cname="掉落2"/>
+  </struct>
+</metalib>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="FirstTopUpSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>    
+    <entry name="DropId" type="int" cname="掉落ID"/>
+	<entry name="ItemId" type="int" cname="道具ID"/>
+	<entry name="ItemNum" type="int" cname="道具数量"/>
+  </struct>
+</metalib>

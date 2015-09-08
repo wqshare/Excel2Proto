@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message DailyQuestSet
+{
+ required int32 ID = 1;
+ required int32 exp = 10;
+ required int32 gold = 11;
+ required int32 diamond = 12;
+ required int32 power = 13;
+ required int32 dropId = 14;
+ required string name = 2;
+ required int32 show = 3;
+ required int32 prevId = 4;
+ required int32 type = 5;
+ required int32 recvLevel = 6;
+ required int32 data1 = 7;
+ required int32 data2 = 8;
+ required string desc = 9;
+}

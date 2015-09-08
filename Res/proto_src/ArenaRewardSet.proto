@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message ArenaRewardSet
+{
+ required int32 ID = 1;
+ required int32 gold = 2;
+ required int32 arenaGold = 3;
+ required int32 winPercent = 4;
+ required int32 failPercent = 5;
+}

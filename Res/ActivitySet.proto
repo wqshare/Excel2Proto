@@ -1,0 +1,24 @@
+option optimize_for = LITE_RUNTIME;
+import "E:/Code/Excel2Proto/Res/proto_src/AchievementSet.proto/RaidGroup.proto";
+import "E:/Code/Excel2Proto/Res/proto_src/AchievementSet.proto/UnlockTimeGroup.proto";
+message ActivitySet
+{
+ required int32 ID = 1;
+ required string rewardDesc = 10;
+ required string startDayDesc = 11;
+ required string startTimeDesc = 12;
+ required int32 activityTime = 13;
+ required int32 raidNum = 14;
+ repeated RaidGroup raidGroup = 15;
+ required int32 unlockTimeNum = 16;
+ repeated UnlockTimeGroup unlockTimeGroup = 17;
+ required string activityName = 2;
+ required int32 unlockTask = 3;
+ required int32 sortNum = 4;
+ required string iconId = 5;
+ required int32 activityType = 6;
+ required int32 powerCost = 7;
+ required int32 unlockLevel = 8;
+ required string activityDesc = 9;
+}
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_MACHAI_NAME_NUM" value="30" />
+	<macro name="MAX_MACHAI_ICON_LEN" value="10" />
+	<macro name="MAX_MACHAI_DESC_LEN" value="300" />
+	<macro name="MAX_MACHAI_SKILL_INTROD_LEN" value="20" />
+
+	<struct name="MaChaiSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="马仔ID"/>
+		<entry name="name" type="string" size="MAX_MACHAI_NAME_NUM" cname="马仔名称"/>
+		<entry name="level" type="int" cname="马仔等级"/>
+		<entry name="star" type="int" cname="马仔星级"/>
+		<entry name="quality" type="int" cname="马仔品级"/>
+		<entry name="trainLevel" type="int" cname="马仔培养等级"/>
+		<entry name="avatarID" type="int" cname="avatarID"/>
+		<entry name="desc" type="string" size="MAX_MACHAI_DESC_LEN" cname="马仔说明"/>
+		<entry name="skill1" type="int" cname="马仔主动技能ID"/>
+		<entry name="skill2" type="int" cname="马仔被动技能ID"/>
+		<entry name="propId" type="int" cname="碎片ID"/>
+		<entry name="propCount" type="int" cname="合成碎片"/>
+		<entry name="scale" type="float" cname="模型缩放"/>
+		
+		<entry name="hp" type="int" cname="生命"/>
+		<entry name="attack" type="int" cname="攻击"/>
+		<entry name="defence" type="int" cname="防御"/>
+
+		<entry name="dodge" type="int" cname="闪避值"/>
+		<entry name="hit" type="int" cname="命中值"/>	
+			<entry name="crit" type="int" cname="暴击值"/>
+		<entry name="critAttack" type="int" cname="暴击倍数"/>
+	
+		<entry name="tough" type="int" cname="韧性"/>
+	
+		<entry name="damageReduce" type="int" cname="减伤百分比"/>
+		<entry name="damageAdd" type="int" cname="加成百分比"/>
+		<entry name="ai" type="string"  size="MAX_MACHAI_NAME_NUM"  cname="马仔AI"/>
+		<entry name="additionalFc" type="int"  cname="附加战斗力"/>
+		
+		<entry name="isShow" type="int"  cname="投放"/>
+
+
+	</struct>
+</metalib>

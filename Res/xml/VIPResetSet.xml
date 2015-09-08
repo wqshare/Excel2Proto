@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="VIPResetSet" version="1" sortkey="ID">
+    	<entry name="ID" type="int" cname="次数"/>
+    	<entry name="eliteReset" type="int" cname="精英副本重置"/>
+    	<entry name="multiRaidReset" type="int" cname="组队副本重置"/>
+    	<entry name="bossRaidReset" type="int" cname="挑战BOSS重置"/>
+    	<entry name="pvpReset" type="int" cname="竞技场重置"/>
+    	<entry name="goldReset" type="int" cname="点金手"/>
+    	<entry name="strengthReset" type="int" cname="体力"/>
+    	<entry name="anabasisReset" type="int" cname="远征重置"/>
+    	<entry name="reliveDiamond" type="int" cname="复活钻石"/>
+	<entry name="liemingReset" type="int" cname="命币"/>
+	<entry name="reliveGold" type="int" cname="复活金币"/>
+  </struct>
+</metalib>

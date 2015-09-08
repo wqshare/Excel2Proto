@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildLevelSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="社团等级"/>
+		<entry name="diamond" type="int" cname="需要钻石数"/>
+		<entry name="donation" type="int" cname="需要捐献值"/>
+		<entry name="maxPerson" type="int" cname="人数"/>
+		<entry name="viceChairman" type="int" cname="副会长"/>
+	</struct>
+</metalib>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="AnabasisRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="物品奖励序号"/>		
+		<entry name="lvCap" type="int"  cname="等级上限"/>	
+		<entry name="lvLower" type="int"  cname="等级下限"/>
+		<entry name="dropID1" type="int"  cname="奖励1"/>
+		<entry name="dropID2" type="int"  cname="奖励2"/>
+		<entry name="gold" type="int"  cname="金币奖励"/>		
+	</struct>
+</metalib>

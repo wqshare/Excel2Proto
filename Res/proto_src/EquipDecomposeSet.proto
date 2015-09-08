@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipDecomposeSet
+{
+ required int32 ID = 1;
+ required int32 material_id1 = 2;
+ required int32 num1 = 3;
+ required int32 material_id2 = 4;
+ required int32 num2 = 5;
+ required int32 material_id3 = 6;
+ required int32 num3 = 7;
+ required int32 material_id4 = 8;
+ required int32 num4 = 9;
+}

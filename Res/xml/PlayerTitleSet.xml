@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_TITLE_NAME_LEN" value="50" />
+	<macro name="MAX_TITLE_ICON_LEN" value="50" />
+	<macro name="MAX_TITLE_DESC_LEN" value="200" />
+	
+	<struct name="TitleAttr" version="1">
+		<entry name="attrID" type="int" cname="id"/>
+		<entry name="attrNum" type="int" cname="数值"/>
+	</struct>
+		
+	<struct name="PlayerTitleSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="称号ID"/>
+		<entry name="ActivateID" type="int" cname="激活ID"/>
+		<entry name="name" type="string" size="MAX_TITLE_NAME_LEN" cname="称号名称"/>
+		<entry name="iconId" type="string" size="MAX_TITLE_ICON_LEN" cname="称号ICON"/>
+		<entry name="desc" type="string" size="MAX_TITLE_DESC_LEN" cname="称号描述"/>
+		<entry name="conditions" type="string" size="MAX_TITLE_DESC_LEN" cname="称号获取条件"/>	
+		<entry name="attrNum" type="int" cname="属性数"/>
+		<entry name="attrData" type="TitleAttr" count="10" refer="attrNum" cname="属性"/>
+	</struct>
+</metalib>
+

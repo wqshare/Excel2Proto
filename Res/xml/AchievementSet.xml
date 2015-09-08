@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="AchievementSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="成就ID"/>
+    <entry name="Conditions" type="int" cname="前置点"/>
+    <entry name="name" type="string" size="50" cname="成就名称"/>
+    <entry name="level" type="int" cname="成就等级"/>
+    <entry name="Job" type="int" cname="职业"/>
+    <entry name="type" type="int" cname="成就类型"/>
+    <entry name="val1" type="int" cname="数值1"/>
+    <entry name="val2" type="int" cname="数值2"/>
+    <entry name="sortId" type="int" cname="排序"/>
+    <entry name="desc" type="string" size="100" cname="成就描述"/>
+    <entry name="gold" type="int" cname="金币"/>
+    <entry name="diamond" type="int" cname="钻石"/>
+    <entry name="dorpid" type="int" cname="掉落id"/>
+	<entry name="dragonSoul" type="int" cname="龙魂币"/>
+	<entry name="liemingGold" type="int" cname="命运石"/>
+	<entry name="arenaGold" type="int" cname="竞技币"/>
+  </struct>
+</metalib>

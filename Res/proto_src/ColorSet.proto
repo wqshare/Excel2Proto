@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message ColorSet
+{
+ required int32 ID = 1;
+ required int32 r = 2;
+ required int32 g = 3;
+ required int32 b = 4;
+}

@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ComposeItem
+{
+ required int32 itemID = 1;
+ required int32 itemNum = 2;
+}

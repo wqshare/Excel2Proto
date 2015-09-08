@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_BUFF_DESC_LENGTH" value="200" />
+	<macro name="MAX_BUFF_ATTRI_NUM" value="3" />
+	<macro name="MAX_MACHAI_BUFF_NAME_NUM" value="50" />
+
+	<struct name="MaChaiBuffSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="BUFFID"/>
+		<entry name="name" type="string" size="MAX_MACHAI_BUFF_NAME_NUM" cname="技能名字"/>
+		<entry name="level" type="int" cname="技能等级"/>
+		<entry name="desc" type="string" size="MAX_BUFF_DESC_LENGTH" cname="效果描述"/>
+		<entry name="conid" type="string" size="20" cname="技能ICON"/>
+		<entry name="forEverID" type="int" cname="永久属性ID"/>
+		<entry name="forEvervalue" type="int" cname="永久属性数值"/>
+		<entry name="tempID" type="int" cname="临时BUFID"/>
+		<entry name="tempvalue" type="float" cname="临时BUF数值"/>
+		<entry name="tempLast" type="float" cname="临时BUF持续时间"/>
+		<entry name="fc" type="int" cname="战斗力"/>
+	</struct>
+</metalib>

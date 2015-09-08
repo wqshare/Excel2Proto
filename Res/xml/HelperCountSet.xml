@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	
+	<struct name="HelperCountSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="援助次数"/>
+		<entry name="diamond" type="int" cname="需要钻石"/>	
+	</struct>
+</metalib>

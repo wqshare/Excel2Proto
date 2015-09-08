@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <macro name="MAX_DNS_LENGTH" value="100" />
+  <struct name="DNSSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="ID"/>    
+    <entry name="dns" type="string" size="MAX_DNS_LENGTH" cname="域名"/>
+	<entry name="ipAddr" type="string" size="MAX_DNS_LENGTH" cname="IP地址"/>
+  </struct>
+</metalib>

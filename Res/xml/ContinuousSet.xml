@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_REWARD_NAME_LENGTH" value="50" />
+<macro name="MAX_REWARD_LENGTH" value="4" />
+  <struct name="OnlineItem" version="1">
+		<entry name="itemID" type="int" cname="ID"/>
+		<entry name="itemNum" type="int" cname="数量"/>
+		<entry name="itemName" type="string" size="MAX_REWARD_NAME_LENGTH" cname="名字"/>	
+	</struct>
+  <struct name="ContinuousSet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="连续登陆次数"/>
+	<entry name="gold" type="int" cname="金币"/>
+	<entry name="diamond" type="int" cname="钻石"/>
+    <entry name="giftID" type="int" cname="掉落ID"/>
+	<entry name="rewardNum" type="int" cname="道具数量"/>
+	<entry name="rewardItem" type="OnlineItem" count="MAX_REWARD_LENGTH" refer="rewardNum" cname="道具"/>
+  </struct>
+</metalib>

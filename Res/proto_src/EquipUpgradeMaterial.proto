@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipUpgradeMaterial
+{
+ required int32 id = 1;
+ required int32 num = 2;
+}

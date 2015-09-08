@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="HelpDescSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="id"/>
+		<entry name="name" type="string" size="50" cname="系统名字"/>
+		<entry name="desc" type="string" size="1500" cname="帮助文本"/>
+	</struct>
+</metalib>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_TIPS_DESC_LENGTH" value="100" />
+	<struct name="TipAttribute" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="TIPID"/>
+		<entry name="desc" type="string" size="MAX_TIPS_DESC_LENGTH" cname="TIPINFO"/>
+		<entry name="tip1" type="string" size="MAX_TIPS_DESC_LENGTH" cname="TIP1"/>
+		<entry name="tip2" type="string" size="MAX_TIPS_DESC_LENGTH" cname="TIP2"/>
+	</struct>
+</metalib>

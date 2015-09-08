@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message RoleAttrSet
+{
+ required int32 Prof = 1;
+ required int32 Level = 2;
+ required int32 Hp = 3;
+ required int32 Attack = 4;
+ required int32 Defence = 5;
+}

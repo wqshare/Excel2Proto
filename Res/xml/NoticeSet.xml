@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="NoticeSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="descID1" type="int" cname="描述1"/>
+		<entry name="descID2" type="int" cname="描述2"/>
+		<entry name="descID3" type="int" cname="描述3"/>
+		<entry name="descID4" type="int" cname="描述4"/>
+		<entry name="conditionID" type="int" cname="触发条件ID"/>
+		<entry name="conditionsVal1" type="int" cname="条件数值1"/>
+		<entry name="conditionsVal2" type="int" cname="条件数值2" />
+		<entry name="conditionsVal3" type="int" cname="条件数值3" />
+	</struct>
+</metalib>

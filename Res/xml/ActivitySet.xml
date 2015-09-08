@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_ACTIVITY_NAME_LENGTH" value="100" />	
+	<macro name="MAX_ACTIVITY_RAID_NUM" value="18" />
+	<macro name="MAX_UNLOCK_TIME_NUM" value="14" />
+	
+	<struct name="RaidGroup" version="1">
+		<entry name="raidId" type="int" cname="ID"/>
+	</struct>	
+	<struct name="UnlockTimeGroup" version="1">
+		<entry name="day" type="int" cname="ID"/>
+		<entry name="startHour" type="int" cname="开启时间小时"/>
+		<entry name="startMinute" type="int" cname="开启时间分钟"/>
+		<entry name="endHour" type="int" cname="结束时间小时"/>
+		<entry name="endMinute" type="int" cname="结束时间分钟"/>
+	</struct>
+	<struct name="ActivitySet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="活动ID"/>
+		<entry name="activityName" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="活动名称"/>
+		<entry name="unlockTask" type="int" cname="开启任务"/>
+		<entry name="sortNum" type="int" cname="排序序号"/>
+		<entry name="iconId" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="IconID"/>
+		<entry name="activityType" type="int" cname="活动类型"/>
+		<entry name="powerCost" type="int" cname="消耗体力"/>
+		<entry name="unlockLevel" type="int"  cname="开启等级"/>
+		<entry name="activityDesc" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="活动描述"/>
+		<entry name="rewardDesc" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="奖励描述"/>
+		<entry name="startDayDesc" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="开启日描述"/>
+		<entry name="startTimeDesc" type="string" size="MAX_ACTIVITY_NAME_LENGTH" cname="开启时间描述"/>
+		<entry name="activityTime" type="int" cname="通关次数"/>
+		<entry name="raidNum" type="int" cname="副本组数量"/>	
+		<entry name="raidGroup" type="RaidGroup" count="MAX_ACTIVITY_RAID_NUM" refer="raidNum" cname="副本组"/>
+		<entry name="unlockTimeNum" type="int" cname="开启时间组数量"/>
+		<entry name="unlockTimeGroup" type="UnlockTimeGroup" count="MAX_UNLOCK_TIME_NUM" refer="unlockTimeNum" cname="周ID"/>
+	</struct>
+</metalib>

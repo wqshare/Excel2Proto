@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="MaChaiTrainUpProperSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="马仔ID"/>
+		<entry name="hp" type="int" cname="生命"/>
+		<entry name="attack" type="int" cname="攻击"/>
+		<entry name="defence" type="int" cname="防御"/>
+	</struct>
+</metalib>

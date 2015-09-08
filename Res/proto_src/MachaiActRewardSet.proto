@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "MachaiActRewardItem.proto";
+message MachaiActRewardSet
+{
+ required int32 ID = 1;
+ required int32 limitLow = 2;
+ required int32 num = 3;
+ repeated MachaiActRewardItem itemData = 4;
+}

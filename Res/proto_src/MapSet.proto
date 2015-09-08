@@ -1,0 +1,41 @@
+option optimize_for = LITE_RUNTIME;
+import "UnLockCond.proto";
+import "MonsterGroup.proto";
+message MapSet
+{
+ required int32 ID = 1;
+ required int32 bornRightPosX = 10;
+ required int32 bornRightPosY = 11;
+ required string mapAI = 12;
+ required int32 timeLimit = 13;
+ required int32 raidGatewayPosX = 14;
+ required int32 raidGatewayPosY = 15;
+ required int32 mapGatewayPosX = 16;
+ required int32 mapGatewayPosY = 17;
+ required string mapPath = 18;
+ required int32 powerCost = 19;
+ required int32 mapType = 2;
+ required int32 recommendFightCap = 20;
+ required int32 startCondMinPlayer = 21;
+ required int32 startCondMaxPlayer = 22;
+ required int32 enterTimeLimit = 23;
+ required int32 coolDown = 24;
+ required int32 resetTime = 25;
+ required int32 lastTime = 26;
+ required int32 unlockCondNum = 27;
+ required int32 condRelation = 28;
+ repeated UnLockCond unlockCond = 29;
+ required int32 storyIndex = 3;
+ required int32 dropId = 30;
+ required int32 bossId = 31;
+ required int32 monsterListNum = 32;
+ repeated MonsterGroup monsterList = 33;
+ required int32 mountGroupNum = 34;
+ repeated int32 mountGroup = 35[packed=true];
+ required string mapName = 4;
+ required string mapDesc = 5;
+ required string IconID = 6;
+ required int32 backgroudMusic = 7;
+ required int32 bornPosX = 8;
+ required int32 bornPosY = 9;
+}

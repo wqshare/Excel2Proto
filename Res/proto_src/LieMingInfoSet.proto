@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+import "MinggeItem.proto";
+message LieMingInfoSet
+{
+ required int32 ID = 1;
+ required int32 minggeNum = 2;
+ repeated MinggeItem minggeItem = 3;
+}

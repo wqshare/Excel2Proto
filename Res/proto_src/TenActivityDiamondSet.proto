@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+
+message TenActivityDiamondSet
+{
+ required int32 ID = 1;
+ required int32 must = 10;
+ required int32 type = 11;
+ required int32 only = 12;
+ required int32 dropId = 2;
+ required int32 itemId = 3;
+ required int32 num = 4;
+ required int32 probability = 5;
+ required int32 minLevel = 6;
+ required int32 maxLevel = 7;
+ required int32 vipLevel = 8;
+ required int32 show = 9;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ClickGoldProbabilitySet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="倍数"/>
+		<entry name="probability" type="float" cname="概率"/>
+		<entry name="limit" type="int" cname="每天上限"/>
+	</struct>
+</metalib>

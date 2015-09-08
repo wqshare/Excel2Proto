@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="TenActivityPriceSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="type" type="int" cname="类型"/>
+		<entry name="pirce" type="int" cname="数值"/>
+	</struct>
+</metalib>

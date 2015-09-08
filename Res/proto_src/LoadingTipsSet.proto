@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message LoadingTipsSet
+{
+ required int32 ID = 1;
+ required int32 Weight = 2;
+ required string Desc = 3;
+}

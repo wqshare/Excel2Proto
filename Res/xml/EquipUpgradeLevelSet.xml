@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<struct name="EquipUpgradeMaterial" version="1">
+		<entry name="id" type="int" cname="ID"/>
+		<entry name="num" type="int" cname="数量"/>
+	</struct>
+
+	<struct name="EquipUpgradeLevelSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="升级ID"/>		
+		<entry name="diamond" type="int" cname="钻石消耗"/>
+		<entry name="gold" type="int" cname="金币消耗"/>
+		<entry name="name" type="string" size="50" cname="升级产物名称"/>
+		<entry name="dstId" type="int" cname="升级产物ID"/>
+		<entry name="num" type="int" cname="升级组数"/>
+		<entry name="material" type="EquipUpgradeMaterial" count="2" refer="num" cname="升级材料"/>
+
+	</struct>
+</metalib>

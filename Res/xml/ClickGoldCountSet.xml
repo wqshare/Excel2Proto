@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ClickGoldCountSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="次数"/>
+		<entry name="goldMulti" type="int" cname="金币倍数"/>
+		<entry name="diamondMulti" type="int" cname="钻石基数"/>
+	</struct>
+</metalib>

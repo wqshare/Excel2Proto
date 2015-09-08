@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildWorkshopSkillDescSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="技能描述ID"/>
+		<entry name="name" type="string" size="20" cname="技能名称"/>	
+		<entry name="desc" type="string" size="50" cname="技能描述"/>
+		<entry name="icon" type="string" size="50" cname="技能icon"/>
+	</struct>
+</metalib>

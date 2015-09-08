@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message CompetitiveRewardDaySet
+{
+ required int32 ID = 1;
+ required int32 idLimit = 2;
+ required int32 gold = 3;
+ required int32 diamond = 4;
+ required int32 competitiveGold = 5;
+ required int32 itemId = 6;
+ required int32 matchingLimit = 7;
+}

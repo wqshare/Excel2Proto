@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildStoreSet
+{
+ required int32 ID = 1;
+ required int32 DropID = 2;
+ required int32 ItemID = 3;
+ required int32 InitialCount = 4;
+ required int32 ArisesProbability = 5;
+ required int32 DonateCost = 6;
+}

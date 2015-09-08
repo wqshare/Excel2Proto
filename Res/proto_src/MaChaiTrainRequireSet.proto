@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message MaChaiTrainRequireSet
+{
+ required int32 ID = 1;
+ required int32 currentAttack = 10;
+ required int32 currentDefense = 11;
+ required int32 totalHp = 12;
+ required int32 tatalAttack = 13;
+ required int32 totalDefense = 14;
+ required int32 level = 2;
+ required int32 item1 = 3;
+ required int32 item2 = 4;
+ required int32 item3 = 5;
+ required int32 item4 = 6;
+ required int32 item5 = 7;
+ required int32 item6 = 8;
+ required int32 currentHp = 9;
+}

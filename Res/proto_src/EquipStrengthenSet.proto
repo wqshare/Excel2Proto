@@ -1,0 +1,17 @@
+option optimize_for = LITE_RUNTIME;
+
+message EquipStrengthenSet
+{
+ required int32 ID = 1;
+ required float Crit = 10;
+ required float Toug = 11;
+ required float DamageAdd = 12;
+ required int32 materialID = 2;
+ required float propGlodValue = 3;
+ required float Hp = 4;
+ required float Attack = 5;
+ required float Defence = 6;
+ required float DamageReduce = 7;
+ required float Accurate = 8;
+ required float Dodge = 9;
+}

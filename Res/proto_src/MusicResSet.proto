@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message MusicResSet
+{
+ required int32 ID = 1;
+ required string musicEvent = 2;
+ required int32 isBGM = 3;
+}

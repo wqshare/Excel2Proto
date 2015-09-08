@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildWorkshopSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="公会等级"/>
+		<entry name="WorkshopLv" type="int" cname="工坊等级"/>	
+		<entry name="SkillCount" type="int" cname="工坊技能个数"/>
+		<entry name="SkillLvLimit" type="int" cname="技能等级上限"/>
+		<entry name="DonateForUp" type="int" cname="工坊升级消耗"/>
+	</struct>
+</metalib>

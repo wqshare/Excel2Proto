@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message BossRaidLevelSet
+{
+ required int32 ID = 1;
+ required float hpFactor = 2;
+ required float attackFactor = 3;
+ required float defenceFactor = 4;
+}

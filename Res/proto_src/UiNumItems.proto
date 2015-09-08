@@ -1,0 +1,8 @@
+option optimize_for = LITE_RUNTIME;
+
+message UiNumItems
+{
+ required int32 uiId = 1;
+ required string titleName = 2;
+ required string info = 3;
+}

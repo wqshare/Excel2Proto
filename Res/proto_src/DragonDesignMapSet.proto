@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+import "DragonMapAttr.proto";
+message DragonDesignMapSet
+{
+ required int32 ID = 1;
+ required string mapName = 2;
+ required int32 attrNum = 3;
+ repeated DragonMapAttr attr = 4;
+}

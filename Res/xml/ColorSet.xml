@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ColorSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="颜色ID"/>
+		<entry name="r" type="int" cname="r"/>
+		<entry name="g" type="int" cname="g"/>
+		<entry name="b" type="int" cname="b"/>
+	</struct>
+</metalib>

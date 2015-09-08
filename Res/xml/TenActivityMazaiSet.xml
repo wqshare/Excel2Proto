@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+<macro name="MAX_BANSHEN_NAME_NUM" value="30" />
+	<struct name="TenActivityMazaiSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="ID"/>
+		<entry name="mazaiId" type="int" cname="马仔ID"/>
+		<entry name="nextId" type="int" cname="下一ID"/>
+		<entry name="iconId" type="string" size="MAX_BANSHEN_NAME_NUM" cname="半身像资源"/>
+		<entry name="mazaiName" type="string" size="MAX_BANSHEN_NAME_NUM" cname="马仔名字"/>
+		<entry name="attachProbability" type="int" cname="附加概率"/>
+	</struct>
+</metalib>

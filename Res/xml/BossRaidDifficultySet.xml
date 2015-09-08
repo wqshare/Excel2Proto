@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+  <struct name="BossRaidDifficultySet" version="1" sortkey="ID">
+    <entry name="ID" type="int" cname="地图ID"/>
+    <entry name="hpFactor" type="float" cname="血量难度系数"/>
+	<entry name="attackFactor" type="float" cname="攻击难度系数"/>
+	<entry name="defenceFactor" type="float" cname="防御难度系数"/>
+  </struct>
+</metalib>

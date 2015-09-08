@@ -1,0 +1,12 @@
+option optimize_for = LITE_RUNTIME;
+
+message ArenaStoreSet
+{
+ required int32 ID = 1;
+ required int32 dropId = 2;
+ required int32 itemId = 3;
+ required string name = 4;
+ required int32 count = 5;
+ required int32 probability = 6;
+ required int32 arenaGold = 7;
+}

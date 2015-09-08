@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+import "ShiZhuangAttr.proto";
+message FashionDressSet
+{
+ required int32 ID = 1;
+ required string fashionDressName = 2;
+ required int32 jobLimit = 3;
+ required string iconId = 4;
+ required int32 modelId = 5;
+ required int32 conditionType = 6;
+ required int32 conditionValue = 7;
+ required int32 attrNum = 8;
+ repeated ShiZhuangAttr attr = 9;
+}

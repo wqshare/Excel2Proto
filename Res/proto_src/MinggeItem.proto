@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message MinggeItem
+{
+ required int32 minggeID = 1;
+ required int32 minggeProbability = 2;
+}

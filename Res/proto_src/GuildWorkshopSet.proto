@@ -1,0 +1,10 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildWorkshopSet
+{
+ required int32 ID = 1;
+ required int32 WorkshopLv = 2;
+ required int32 SkillCount = 3;
+ required int32 SkillLvLimit = 4;
+ required int32 DonateForUp = 5;
+}

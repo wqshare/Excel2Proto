@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="SendMailSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="类型"/>
+		<entry name="title" type="string" size="50" cname="邮件标题"/>
+		<entry name="sender" type="string"  size="20"  cname="发件人"/>
+		<entry name="content" type="string" size="200" cname="内容"/>
+	</struct>
+</metalib>

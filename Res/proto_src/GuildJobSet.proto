@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message GuildJobSet
+{
+ required int32 ID = 1;
+ required int32 guildBattle = 10;
+ required int32 guildDonation = 11;
+ required int32 banSpeech = 12;
+ required int32 upgrade = 13;
+ required int32 activit = 14;
+ required string name = 2;
+ required int32 isAdmin = 3;
+ required int32 isCore = 4;
+ required int32 powersGive = 5;
+ required int32 recvMember = 6;
+ required int32 expelMember = 7;
+ required int32 document = 8;
+ required int32 guildDevel = 9;
+}

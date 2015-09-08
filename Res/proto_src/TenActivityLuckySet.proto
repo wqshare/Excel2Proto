@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message TenActivityLuckySet
+{
+ required int32 ID = 1;
+ required int32 nextId = 2;
+ required int32 upperLimit = 3;
+ required int32 lowerLimit = 4;
+}

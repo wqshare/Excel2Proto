@@ -1,0 +1,11 @@
+option optimize_for = LITE_RUNTIME;
+
+message CompetitiveHistoryRewardSet
+{
+ required int32 ID = 1;
+ required int32 idLimit = 2;
+ required float gold = 3;
+ required float diamond = 4;
+ required float competitiveGold = 5;
+ required int32 itemId = 6;
+}

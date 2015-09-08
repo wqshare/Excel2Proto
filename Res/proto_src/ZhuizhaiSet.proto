@@ -1,0 +1,19 @@
+option optimize_for = LITE_RUNTIME;
+
+message ZhuizhaiSet
+{
+ required int32 ID = 1;
+ required int32 num2 = 10;
+ required int32 item3 = 11;
+ required int32 num3 = 12;
+ required int32 upOdds = 13;
+ required int32 downOdds = 14;
+ required string name = 2;
+ required string icon = 3;
+ required int32 quality = 4;
+ required int32 gold = 5;
+ required int32 exp = 6;
+ required int32 item1 = 7;
+ required int32 num1 = 8;
+ required int32 item2 = 9;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="ArenaRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="等级"/>
+		<entry name="gold" type="int" cname="金币"/>
+		<entry name="arenaGold" type="int" cname="竞技币"/>
+		<entry name="winPercent" type="int" cname="胜利"/>
+		<entry name="failPercent" type="int" cname="失败"/>
+	</struct>
+</metalib>

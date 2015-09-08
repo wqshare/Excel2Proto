@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+
+	<macro name="MAX_REWARD_DESC_NUM" value="20" />
+	<struct name="RaidRewardSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="奖励ID"/>
+		<entry name="rewardDesc" type="string" size="MAX_REWARD_DESC_NUM" cname="奖励描述"/>
+		<entry name="minGold" type="int" cname="金币奖励下限"/>
+		<entry name="maxGold" type="int" cname="金币奖励上限"/>
+		<entry name="exp" type="int" cname="经验奖励"/>	
+		<entry name="dragonSoul" type="int" cname="龙魂数量"/>
+		<entry name="liemingGold" type="int" cname="命币"/>		
+		<entry name="specialRewardID" type="int" cname="特殊道具奖励集合ID"/>				
+		<entry name="maxCommonRewardNum" type="int" cname="道具奖励个数上限"/>
+		<entry name="commonRewardID" type="int" cname="普通道具奖励集合ID"/>	
+	</struct>
+</metalib>

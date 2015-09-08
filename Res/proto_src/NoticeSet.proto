@@ -1,0 +1,14 @@
+option optimize_for = LITE_RUNTIME;
+
+message NoticeSet
+{
+ required int32 ID = 1;
+ required int32 descID1 = 2;
+ required int32 descID2 = 3;
+ required int32 descID3 = 4;
+ required int32 descID4 = 5;
+ required int32 conditionID = 6;
+ required int32 conditionsVal1 = 7;
+ required int32 conditionsVal2 = 8;
+ required int32 conditionsVal3 = 9;
+}

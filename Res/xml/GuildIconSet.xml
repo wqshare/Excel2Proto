@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="GuildIconSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="序号"/>
+		<entry name="Icon" type="string" size="50" cname="icon"/>
+	</struct>
+</metalib>

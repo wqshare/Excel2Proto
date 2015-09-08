@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<macro name="MAX_ITEM_NAME_LENGTH" value="200" />
+	<struct name="ItemAttrSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="道具ID"/>
+		<entry name="name" type="string" size="MAX_ITEM_NAME_LENGTH" cname="道具名称"/>
+		<entry name="ItemType" type="int" cname="道具类别"/>
+		<entry name="Uselimit" type="int" cname="使用限制"/>
+		<entry name="UseResult" type="int" cname="使用效果"/>
+		<entry name="limitVal" type="int" cname="限制数值"/>
+		<entry name="canBuy" type="int" cname="是否可购买"/>
+		<entry name="buyType" type="int" cname="购买货币类型"/>
+		<entry name="buyPrice" type="int" cname="购买价格"/>
+		<entry name="CanSell" type="int" cname="是否可出售"/>
+    <entry name="currencyType" type="int" cname="出售货币类型"/>
+    <entry name="SalePrice" type="int" cname="出售价格"/>
+    <entry name="ComposeID" type="int" cname="合成ID"/>
+    <entry name="stackNum" type="int" cname="堆叠数量"/>
+    <entry name="ItemColor" type="int" cname="道具颜色"/>
+    <entry name="IconID" type="string" size="MAX_ITEM_NAME_LENGTH" cname="ICONID"/>
+    <entry name="ItemDesc" type="string" size="MAX_ITEM_NAME_LENGTH" cname="道具描述"/>
+  </struct>
+</metalib>

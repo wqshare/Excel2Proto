@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<metalib tagsetversion="1" name="FightRes" version="2" >
+	<struct name="MaChaiTrainRequireSet" version="1" sortkey="ID">
+		<entry name="ID" type="int" cname="马仔ID"/>
+		<entry name="level" type="int" cname="马仔培养等级"/>	
+		<entry name="item1" type="int" cname="马仔宝物1"/>
+		<entry name="item2" type="int" cname="马仔宝物2"/>
+		<entry name="item3" type="int" cname="马仔宝物3"/>
+		<entry name="item4" type="int" cname="马仔宝物4"/>
+		<entry name="item5" type="int" cname="马仔宝物5"/>
+		<entry name="item6" type="int" cname="马仔宝物6"/>
+		<entry name="currentHp" type="int" cname="生命"/>
+		<entry name="currentAttack" type="int" cname="攻击"/>
+		<entry name="currentDefense" type="int" cname="防御"/>
+		<entry name="totalHp" type="int" cname="总生命"/>
+		<entry name="tatalAttack" type="int" cname="总攻击"/>
+		<entry name="totalDefense" type="int" cname="总防御"/>
+	</struct>
+</metalib>

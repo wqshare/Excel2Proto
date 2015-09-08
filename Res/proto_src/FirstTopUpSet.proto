@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message FirstTopUpSet
+{
+ required int32 ID = 1;
+ required int32 DropId = 2;
+ required int32 ItemId = 3;
+ required int32 ItemNum = 4;
+}

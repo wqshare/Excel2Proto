@@ -1,0 +1,9 @@
+option optimize_for = LITE_RUNTIME;
+
+message AvatarResSet
+{
+ required int32 ID = 1;
+ required string resName = 2;
+ required string colorFile = 3;
+ required string iconID = 4;
+}

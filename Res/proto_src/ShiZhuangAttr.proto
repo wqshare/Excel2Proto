@@ -1,0 +1,7 @@
+option optimize_for = LITE_RUNTIME;
+
+message ShiZhuangAttr
+{
+ required int32 attrType = 1;
+ required int32 attrVal = 2;
+}

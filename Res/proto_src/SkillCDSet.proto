@@ -1,0 +1,18 @@
+option optimize_for = LITE_RUNTIME;
+
+message SkillCDSet
+{
+ required int32 ID = 1;
+ required int32 needItgemNum = 10;
+ required int32 fightNum = 11;
+ required int32 totalfightNum = 12;
+ required int32 skillSort = 13;
+ required string SkillName = 2;
+ required int32 Job = 3;
+ required int32 UnLockLevel = 4;
+ required string SkillDesc = 5;
+ required int32 SkillCD = 6;
+ required int32 needGold = 7;
+ required int32 level = 8;
+ required int32 needItemLevel = 9;
+}
